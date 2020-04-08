@@ -60,74 +60,48 @@ export default class Checkout extends Component {
                 
      <React.Fragment>
        
-      <div className="paddit">
+      <div className="paddit container">
       
         <Spaces>
-        <div className="container">
-          <div className="col-10 mx-auto text-title  text-center text-capitalize">
+        <div className="col-12">
+          <h4 className="col-10 mx-auto text-title  text-center text-capitalize">
             Checkout
-          </div>
+          </h4>
           <form onSubmit={this.getEmail} onBlur={this.handleHero}  >
-          <div className="flex-container main">
-            <div className="flex-container steps-text a">
-              <div className="badge pt-2">1</div>
-              <div className="align-self-center">
-                Order Summary
+          <div className="row">
+              <div className="col-12 col-md-4">
+                <div className="row steps-text">
+                  <div className="badge pt-2">1</div>
+                  <div className="align-self-center">Order Summary</div>
+                </div>
+              <div className="row mr-2">
+                <CartList value={value}/>
+                <CartTotals value={value} history={this.props.history} />
               </div>
             </div>
-            <CartList value={value} />
-            
-            <CartTotals value={value} history={this.props.history} />
-
-            <div className="flex-container steps-text a">
-              <div className="badge pt-2" >2</div>
-                <div className="align-self-center">Delivery Information
-              </div>
-            </div>
-
-            <div className="flex-container a">
-              <div className="paddin" style={{width:'100%'}}  >
-              
-                <p>Receiver's Name</p>
-                <input onBlur={this.getFullname} ref={this.customerName} type="text" name="" placeholder="your name"/>
-                <p>E-mail</p>                  
-                  <input onBlur={this.getEmail} ref={this.customerEmail} className = "email" type="text" placeholder="your email"/>
-                
-                  
-                <p>Phone Number</p>
-                <input onBlur={this.getPhone} ref = {this.customerPhone} type="text" name="" placeholder="your phone number"/>
-                <p>Address</p>
-                <input onBlur={this.getAddress} ref={this.customerAddress} className="addressfield" type="text" name=""/>
-              </div>
-            </div>
-            <div className="flex-container steps-text a">
-              <div className="badge pt-2">3</div>
-              <div className="">Payment</div>
-            </div><p className="mx-auto"     id="paystack-img"></p>
-              <div className="col-12 d-flex flex-wrap">
-                
-
-                  <div className="payment-options col-12 col-lg-6">
-                    <div className="p-type justify-content-center">
-                      
-                      <p className="pstack text-center">After clicking "Make Payment", You will be redirected to Paystack's payment gateway where you can securely pay via bank, card or USSD code.</p>
-                    </div>
-                    {/* <div className="p-type "><input type="radio" name="paymentmethod" value="wu"/>Western Union
-                      <p className="wu">(For Customers Outside Nigeria Only. Please Contact Customer Care for Payment Procedure)</p>
-                    </div> */}
-                    
+            <div className="col-12 col-md-8">
+              <div className="row">
+              <div className="col-md-6">
+                <div className="row steps-text mb-2">
+                  <div className="badge pt-2" >2</div>
+                  <div className="align-self-center">Delivery Information</div>
+                </div>
+                <div className="row">
+                  <div className="paddin" style={{width:'100%'}}  >
+                    <input onBlur={this.getFullname} ref={this.customerName} type="text" name="" placeholder="Receiver's Name"/>                
+                      <input onBlur={this.getEmail} ref={this.customerEmail} className = "email" type="text" placeholder="Please enter e-mail"/>
+                    <input onBlur={this.getPhone} ref = {this.customerPhone} type="text" name="" placeholder="your phone number"/>
+                    <input onBlur={this.getAddress} ref={this.customerAddress} className="addressfield" type="text" placeholder="Your full address." name=""/>
                   </div>
-                
-               
+                </div>
               </div>
-              
-              
-              
-            <div className="flex-container py-3">
-          
-              <div className="container mx-auto">
-              <p>All transactions are secure and encrypted.</p>
-                  <PaystackPay
+              <div className="col-md-6">
+                <div className="row steps-text">
+                  <div className="badge pt-2">3</div>
+                  <div className="">Pay via Paystack</div>
+                </div>
+                <div className="row"><div className="col-12 text-center">
+                  <PaystackPay 
                   key={cartItems}
                   customerphone = {phone}
                   customermail = {maill}
@@ -137,18 +111,22 @@ export default class Checkout extends Component {
                   history={this.props.history} 
                   total={cartTotal} 
                   cartItems = {cartItems}/>
-            
-                  
-                <div id="paystack-footer" className="paystack-footer text-center py-2 animated fadeIn">
-                  <a target="_blank" rel="noopener noreferrer" href="https://paystack.com/what-is-paystack">
-                  <img alt="Paystack secured badge" src="https://paystack.com/assets/payment/img/paystack-badge-cards.png"/>
-                  </a>
+                  <p>All transactions are secure and encrypted.</p>
+                  <div id="paystack-footer" className="paystack-footer text-center py-2 animated fadeIn">
+                    <a target="_blank" rel="noopener noreferrer" href="https://paystack.com/what-is-paystack">
+                    <img alt="Paystack secured badge" src="https://paystack.com/assets/payment/img/paystack-badge-cards.png"/>
+                    </a>
+                  </div>
+                  <div className="payment-options">
+                    
+                    {/* <div className="p-type "><input type="radio" name="paymentmethod" value="wu"/>Western Union
+                      <p className="wu">(For Customers Outside Nigeria Only. Please Contact Customer Care for Payment Procedure)</p>
+                    </div> */}
+                  </div></div>
                 </div>
               </div>
-            
-           
+              </div>
             </div>
-            
           </div>
           </form>
         </div>
@@ -174,10 +152,7 @@ const Spaces = styled.div `
 	flex-direction: column;
 	
 }
-.flex-container.a {
-	padding: 15px;
-	display: flex;
-}
+
 .addressfield {
   min-height: 100px
 }
@@ -187,7 +162,9 @@ const Spaces = styled.div `
   min-width: 3rem;
 }
 .paddin input {
-	padding: 5px;
+  padding: 5px;
+  margin-top: 1px;
+  margin-bottom: 1px; 
 	width: 100%;
 	// max-width: 80%;
 	border: 0.5px lightgrey solid;

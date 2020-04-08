@@ -1,23 +1,21 @@
 import React from 'react';
-import styled from 'styled-components';
 
 export default function CartTotals({value}) {
   const {cartSubTotal,cartTotal,location,shipping,method} = value;
   
   return (
-    <React.Fragment>
-      <EmptyWrapper>
-        <div className="d-flex flex-wrap">
-          <div className="col-12 mt-2 text-right text-capitalize">
+        <div className="row">
+          <div className="col-12 my-2 text-capitalize">
             <span className="text-capitalize">sub total :</span>
-            <strong><span className="mr-1">&#8358;</span> {cartSubTotal} </strong>
+            <strong><span className="mx-1">&#8358;</span> {cartSubTotal} </strong>
           </div>
-          <div className="col-12 mt-2 text-right text-capitalize">
-            <span className="text-capitalize">Shipping :</span>
-            <strong><span className="mr-1">&#8358;</span> {shipping} </strong>
+          <div className="d-flex">
+          <div className="col-6 mb-2 text-capitalize">
+            <span className="text-capitalize mr-2">Shipping: </span>
+            <strong><span className="mx-1">&#8358;</span>{shipping} </strong>
           </div>
-          
-          <select value={method} onChange={(e)=>value.getMethod(e)}>
+          <div className="col-6 mb-2 d-flex">
+          <select value={method} onChange={(e)=>value.getMethod(e)}> 
             <option value="regular">Regular</option>
             <option value="doorstep">Doorstep</option>
           </select>
@@ -45,21 +43,14 @@ export default function CartTotals({value}) {
 						<option value="Uyo">Uyo</option>
 						<option value="Warri">Warri</option>
 						</select>
-
-          <div className="col-12 text-right text-capitalize">
+             </div>
+            </div>
+          <div className="col-12 text-capitalize">
               <span className="text-capitalize">Total :</span>
               <strong><span className="mr-1">&#8358;</span> {cartTotal} </strong>
           </div>
 
         </div>
-      </EmptyWrapper>
-    </React.Fragment>
   );
 }
 
-const EmptyWrapper = styled.div `
-  
-  .paystack-footer img {
-    width: 200px;
- }
-`

@@ -319,8 +319,8 @@ button:focus {
   width: 50px;
 }
 #paystack-img {
-  height: 71px;
-  width: 200px;
+  height: 4rem;
+  width: 100%;
   background-image: url('./photos/paystk.jpg');
 }
 .no-decor-links {

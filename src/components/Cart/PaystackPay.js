@@ -80,7 +80,7 @@ import React, { Component } from 'react';
       
         return (
             
-          <div className="" >
+          <div className="mt-0 pt-0" >
             
             <PaystackButton
                 text="Make Payment"
