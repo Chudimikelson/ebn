@@ -24,8 +24,8 @@ export default class Academy extends Component {
           <div class="container bring-to-front pt-0">
             <div className="row gap-y">
               <div className="col-12">
-                <div class="shadow-box bg-contrast p-3 rounded h-100">
-                  <h3 className="bold ">Become a Professional Skincare Formulator</h3>
+                <div class="shadow-box bg-brand p-3 rounded h-100">
+                  <h3 className="bold text-contrast">Become a Professional Skincare Formulator</h3>
                   <div className="row mx-auto" id="courses">
                     <div className="col-12 col-md-4">
                       <Link className="no-decor-links" to="/Natural-Skincare-Formulation">
@@ -41,15 +41,16 @@ export default class Academy extends Component {
                       </div></Link>
                     </div>
                     <div className="col-12 col-md-4">
+                      <Link className="no-decor-links" to="/Soap-Making-Course">
                       <div className="card shadow-hover">
                         <div className="card-body">
-                          <div className="card-title" onClick={this.toggleCollapse("basicCollapse")}>Soap Making</div>
+                          <div className="card-title">Soap Making</div>
                           <img className="image-responsive course-img" src={advanced} alt="etoile academy"/>
                         </div>            
                         <div className="card-footer d-flex justify-content-between">
                           <div className="">COURSE</div>
                         </div>
-                      </div>
+                      </div></Link>
                     </div>
             <div className="col-12 col-md-4"><div className="card shadow-hover">
             <div className="card-body">
@@ -72,7 +73,7 @@ export default class Academy extends Component {
             
             </div></div>
                   </div>
-                  <div className="bbn text-right mr-3">see more <i className="ml-2 fas fa-arrow-right"/></div>
+                  <div className="bbn text-right mr-3">see more <i className="ml-2 fas fa-arrow-right" id="ar-right"/></div>
                 </div>
               </div>
             </div>
@@ -174,4 +175,5 @@ btn {
 .gallery {
   min-height: 500px;
 }
+#ar-right{color:#fff}
 `

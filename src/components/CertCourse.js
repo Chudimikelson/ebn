@@ -9,8 +9,8 @@ export default class CertCourse extends Component {
     render () {
         return (
             <Certstyle>
-              <section className="paddit cert-header">
-                  <div className="container">
+              <section className="container-fluid cert-header">
+                  <div className="container pt-7 pb-3">
                     <h4 className="text-light font-weight-light mb-0 pb-1">Etoile Beauty Academy</h4>
                     <h1 className="text-contrast bold display-lg-4">Certificate in Natural Skincare Formulation</h1>
                     <p className="lead text-light pb-3 bbn">Start your journey in simple, natural and plant based skincare. Develop the knowledge you need to create your own skincare brand.</p>
@@ -22,9 +22,8 @@ export default class CertCourse extends Component {
                   </div>
                   
               </section>
-              <section className="mt-1">
-                  <div className="container pt-0">
-                      <ul className="navbar-nav d-flex flex-row">
+              <div className="col-12">
+              <ul className="navbar-nav d-flex no-decor-links fixed-menu flex-row text-nowrap">
                           <a href="#About"><li className="nav-item nav-link">About</li></a>
                           <a href="#How"><li className="nav-item nav-link ml-3">How It Works</li></a>
                           <li className="nav-item nav-link ml-3">Courses</li>
@@ -32,6 +31,9 @@ export default class CertCourse extends Component {
                           <li className="nav-item nav-link ml-3">Enrollment Options</li>
                           <li className="nav-item nav-link ml-3">FAQ</li>
                       </ul><hr/>
+              <section className="mt-1">
+                  <div className="container pt-0">
+                      
                       <div className="mt-n1">
                           <div className="row mt-0">
                               <div className="col-12 col-md-8 mt-0">
@@ -87,9 +89,9 @@ export default class CertCourse extends Component {
                   </div>
               </section>
               <section>
-                  <div className="jumbotron container-fluid"></div>
+                  <div className="jumbotron container-fluid" id="How"></div>
               </section>
-              <section id="How" className="mt-n5">
+              <section className="mt-n5">
                 <div className="container">
                     <div className="row gap-y mx-auto px-3">
                         <h3 className="text-title text-center">How the specialization works</h3>
@@ -210,6 +212,7 @@ export default class CertCourse extends Component {
                     </div>
                   </div>
               </section>
+            </div>
             </Certstyle>
         )
     }
@@ -217,7 +220,6 @@ export default class CertCourse extends Component {
 
 const Certstyle = styled.div `
 .cert-header {
-    min-height: 40vh;
     background: palevioletred;
 }
 #cert-img {
