@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Accordion from './Accordion';
-import logo from  '../photos/logo.jpg';
-import paystack from '../photos/paystack-1.png';
-import atmpay from '../photos/paystack-2.png';
+
 import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
@@ -44,17 +42,13 @@ export default class Footer extends Component {
                     <div className="row align-items-center">
                         <div className="col-md-4 bbn">
                             <nav className="nav flex-wrap">
-                                <a className="nav-item py-1 mr-3" href="#">FAQs</a>
-                                <a className="nav-item py-1 mr-3" href="#">Privacy</a>
-                                <a class="nav-item py-1 mr-3" href="#">Terms of use</a>
-                                <a className="nav-item py-1" href="#">Return Policy</a>
+                                <p className="nav-item py-1 mr-3" >FAQs</p>
+                                <p className="nav-item py-1 mr-3" >Privacy</p>
+                                <p class="nav-item py-1 mr-3" >Terms of use</p>
+                                <p className="nav-item py-1" >Return Policy</p>
                             </nav>
                         </div>
-                        <div className="col-md-4 text-center bbn">
-                            <a className="d-inline-block align-middle mr-3" href="#">
-                                <img className="img-responsive rounded-circle" src={logo} alt="" style={{width:'4rem', height:'4rem'}}/>
-                            </a>
-                        </div>
+                        
                         <div className="col-md-4 d-flex">
                             <nav className="nav mx-auto ml-md-auto">
                                 <a className="btn btn-sm btn-light mr-2" href="https://wa.me/+2348142195884"><i className="fab fa-whatsapp"></i>
@@ -73,13 +67,10 @@ export default class Footer extends Component {
                     <div className="row align-items-center mt-md-4">
                         <div className="col-md-6">
                             <p className="mt-4 small mb-md-0 text-center text-md-left">All Rights Reserved.</p>
-                            <p className="small mb-md-0 text-center text-md-left">© 2020  <a href="#" target="_blank"> Etoile Beauty Nigeria</a></p>
+                            <p className="small mb-md-0 text-center text-md-left">© 2020 Etoile Beauty Nigeria</p>
                             <p className="small text-center text-md-left">Design by Blackgene Development</p>
                         </div>
-                        <div className="col-md-6">Payment Methods
-                        <div className="d-md-flex"><img className="img-responsive bbn w-40" src={paystack} alt="Payment methods" style={{height:'50px'}}/><img className="img-responsive w-50 mx-auto" src={atmpay} alt="Payment methods" style={{height:'50px'}}/></div>
                         
-                        </div>
                     </div>
                 </div>
   

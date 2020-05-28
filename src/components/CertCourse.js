@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
 import styled from 'styled-components';
-import banner from '../photos/IMG-1.jpg';
 import {Link} from 'react-router-dom';
 import advanced from '../photos/advanced.png';
 import FaQ from './FaQ';
+import banner from '../photos/IMG-1.jpg';
+import AboutAcademy from './AboutAcademy';
 
 export default class CertCourse extends Component {
     render () {
@@ -38,47 +39,46 @@ export default class CertCourse extends Component {
                           <div className="row mt-0">
                               <div className="col-12 col-md-8 mt-0">
                                 <div className="col-12 py-3 rounded" id="wywl">
-                                    <h5 className="text-capitalize">what you will learn</h5>
+                                    <h5 className="text-capitalize bold">what you will learn</h5>
                                     <div className="row" id="About">
-                                        <div className="col-md-6 py-2"><i className="fas fa-check mr-2" />Discover the fundamentals of Virtual Reality, the hardware and history, different applications, and the psychology and challenges of the medium.</div>
-                                    <div className="col-md-6 py-2"><i className="fas fa-check mr-2" />Learn the basics of 3D graphics, how we create objects and how to lay them out to create an environment.</div>
-                                    <div className="col-md-6 py-2"><i className="fas fa-check mr-2" />Explore how you interact with a VR world, including the concepts and technologies of VR interaction.</div>
-                                    <div className="col-md-6 py-2"><i className="fas fa-check mr-2" />Utilise the skills you have learnt to create your own VR game or project.</div> 
+                                        <div className="col-md-6 py-2"><i className="fas fa-check mr-2" />Discover how to create your own unique skin care formulas using natural ingredients that are safe and effective</div>
+                                    <div className="col-md-6 py-2"><i className="fas fa-check mr-2" />Learn the basics of skin care processes and how to turn gorgeous ingredients from nature into working products</div>
+                                    <div className="col-md-6 py-2"><i className="fas fa-check mr-2" />Learn how to formulate over 25 products for skin brightening, acne treatment and anti-aging that are sellable and effective</div>
+                                    <div className="col-md-6 py-2"><i className="fas fa-check mr-2" />Utilise the formulation skills you have learnt in this course to create your own profitable skin care business</div> 
                                     </div>
                                     <hr/>
-                                    <h5 className="text-capitalize">skills you will gain</h5>
+                                    <h5 className="text-capitalize bold">skills you will gain</h5>
                                     <div className="row">
-                                        <div className="col-12">
-                                        <span className = "skills text-contrast">soap making</span>
-                                        <span className = "skills text-contrast">soap making</span>
-                                        <span className = "skills text-contrast">soap making</span>
-                                        <span className = "skills text-contrast">soap making</span>                                          
+                                        <div className="col-12 d-flex">
+                                        <p className = "skills text-contrast">Soap making</p>
+                                        <p className = "skills text-contrast">Lotion making</p>
+                                        <p className = "skills text-contrast">Facial care</p>
+                                        <p className = "skills text-contrast">Product pricing</p>                                          
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-12 py-3 mt-2">
-                                    <h5>About this specialization</h5>
-                                    <p>This specialisation from Etoile Beauty Academy will introduce you to virtual reality.</p>
-                                    <p>Virtual reality is one of the most highly requested skill sets in the jobs market, and this specialisation will give you an introduction to the subject and key skills in the field. You will hear from world-leading lecturers and industry experts, use Unity to develop your own VR environment, and end the specialisation by creating your first VR game.</p>
+                                    <h5 className="bold">About this specialization</h5>
+                                    <p>This specialisation from Etoile Beauty Academy will teach you the formulation skills needed to create unique quality and effective natural skin care product that will set you apart in the natural skin care industry.</p>
                                 </div>
                                 <div className="col-12 py-3">
-                                    <h5>Applied Learning Practicals</h5>
-                                    <p>By the end of the specialisation you will be able to develop your very own Virtual Reality game. You will take the skills you have developed in each of the preceding courses and, using Unity, you will put these into practice to create your first virtual reality game.</p>
+                                    <h5 className="bold">Applied Learning Results</h5>
+                                    <p>By the end of the specialisation course, you will be able to create a full range of natural skin care products from scratch for face and body care.</p>
                                 </div>
                               </div>
                               <div className="col-12 col-md-4">
                                   <div className="learner-outcome py-3 rounded">
                                       <ul>
-                                        <li className="py-3 lead"><i className="fas fa-check"/><span className="ml-4">LEARNER CAREER OUTCOMES</span></li>
-                                        <li className="py-2 text-dark">50%<span className="ml-3">Started their own skincare business after completing this specialization.</span></li>
-                                        <li className="py-2 text-dark">50%<span className="ml-3">Got a pay increase or promotion.</span></li>
+                                        <li className="py-3 lead"><i className="fas fa-check"/><span className="ml-4 bold">LEARNER CAREER OUTCOMES</span></li>
+                                        <li className="py-2 text-dark">80%<span className="ml-3">of our graduates started their own skincare business after completing this specialization.</span></li>
+                                        <li className="py-2 text-dark">20%<span className="ml-3">enrolled for our joined our organic skin care mentorship program.</span></li>
                                       </ul>
                                   </div>
                                   <div className="pt-3 learner-outcome-2">
                                       <ul>
                                         <li className="py-3 text-dark"><i className="fas fa-clock"/><span className="ml-3">Approx. 4 weeks to complete</span></li>
                                         <li className="py-3 text-dark"><i className="fas fa-globe"/><span className="ml-3">100% Online</span></li>
-                                        <li className="py-3 text-dark"><i className="fas fa-certificate"/><span className="ml-3">Certificate of proficiency</span></li>
+                                        <li className="py-3 text-dark"><i className="fas fa-certificate"/><span className="ml-3">Certificate of Proficiency</span></li>
                                         <li className="py-3 text-dark"><i className="fas fa-copy"/><span className="ml-3">Flexible schedule</span></li>
                                         <li className="py-3 text-dark"><i className="fas fa-user-graduate"/><span className="ml-3">Beginner level</span></li>
                                       </ul>
@@ -89,21 +89,21 @@ export default class CertCourse extends Component {
                   </div>
               </section>
               <section>
-                  <div className="jumbotron container-fluid" id="How"></div>
+                  <div className="d-none jumbotron container-fluid" id="How"></div>
               </section>
               <section className="mt-n5">
                 <div className="container">
                     <div className="row gap-y mx-auto px-3">
                         <h3 className="text-title text-center">How the specialization works</h3>
                         <div className="col-12 col-md-7">
-                            <div className="text-dark lead">Take Courses
-                            <p className="text-small">A Coursera Specialization is a series of courses that helps you master a skill. To begin, enroll in the Specialization directly, or review its courses and choose the one you'd like to start with. When you subscribe to a course that is part of a Specialization, you’re automatically subscribed to the full Specialization. It’s okay to complete just one course — you can pause your learning or end your subscription at any time. Visit your learner dashboard to track your course enrollments and your progress.</p>
+                            <div className="text-dark lead"><div className="bold italic">Take Courses</div>
+                            <p className="text-small">This Specialization is a series of courses that helps you master the skill of natural skin care product formulation. To begin, enroll in the Specialization directly, or review its courses and choose the one you'd like to start with. When you pay for a course that is part of a Specialization, you will receive training schedule available for you and other vital information about the course.</p>
                             </div>
-                            <div className="text-dark lead">Hands-on Project
-                            <p className="text-small">Every Specialization includes a hands-on project. You'll need to successfully finish the project(s) to complete the Specialization and earn your certificate. If the Specialization includes a separate course for the hands-on project, you'll need to finish each of the other courses before you can start it.</p>
+                            <div className="text-dark lead"><div className="bold italic">Hands-on Practicals</div>
+                            <p className="text-small">Every course includes a hands-on practical. You'll need to successfully finish the practical(s) to complete the Specialization and earn your certificate.</p>
                             </div>
-                            <div className="text-dark lead">Earn a Certificate
-                            <p className="text-small">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                            <div className="text-dark lead"><div className="bold italic">Earn a Certificate</div>
+                            <p className="text-small">When you finish every course and complete the hands-on practical(s), you'll earn a Certificate of training that you can add to your portfolio.</p>
                             </div>
                         </div>
                         <div className="col-md-5"></div>
@@ -118,44 +118,50 @@ export default class CertCourse extends Component {
                         <div className="row mx-auto">
                             <div className="col-md-2 text-title">COURSE 1</div>
                             <div className="col-md-10 text-dark">
-                                <a href="#" className="lead">The skin and Skincare Products</a>
-                            <p className="lead py-4">A Coursera Specialization is a series of courses that helps you master a skill. To begin, enroll in the Specialization directly, or review its courses and choose the one you'd like to start with. When you subscribe to a course that is part of a Specialization, you’re automatically subscribed to the full Specialization. It’s okay to complete just one course — you can pause your learning or end your subscription at any time. Visit your learner dashboard to track your course enrollments and your progress.</p>
+                                <p href="#" className="lead">The skin and Skin Science</p>
+                            <p className="lead py-4">In this course, you will learn how the skin works, its structure and how to effeciently care for the skin.</p>
                             <hr/>
                             </div>
                             <div className="col-md-2 text-title">COURSE 2</div>
                             <div className="col-md-10 text-dark">
-                                <a href="#" className="lead">Raw Materials in Skincare</a>
-                            <p className="lead py-4">Every Specialization includes a hands-on project. You'll need to successfully finish the project(s) to complete the Specialization and earn your certificate. If the Specialization includes a separate course for the hands-on project, you'll need to finish each of the other courses before you can start it.</p>
+                                <p href="#" className="lead">Raw Materials in Skincare</p>
+                            <p className="lead py-4">In this course you will discover and explore the range of beautiful natural materials used in formulating skin care products and the equipment you will need.</p>
                             <hr/>
                             </div>
                             <div className="col-md-2 text-title">COURSE 3</div>
                             <div className="col-md-10 text-dark">
-                                <a href="#" className="lead">Preservatives, PH Stability and Temperature</a>
-                            <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                                <p href="#" className="lead">Preservatives, pH and Stability </p>
+                            <p className="lead py-4">In this course we will teach you the different types of preservatives, its uses, the importane of pH and how to carry out stability tests.</p>
                             <hr/>
                             </div>
                             <div className="col-md-2 text-title">COURSE 4</div>
                             <div className="col-md-10 text-dark">
-                                <a href="#" className="lead">Body Lotions, Oils and Creams</a>
-                            <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                                <Link to="/Soap-Making-Course" className="lead">Body Lotions, Oils and Creams</Link>
+                            <p className="lead py-4">In this course you will discover the right way to make stable lotions and creams that are effective and also create lovely oil blends that give the skin beautiful and youthful radiance.</p>
                             <hr/>
                             </div>
                             <div className="col-md-2 text-title">COURSE 5</div>
                             <div className="col-md-10 text-dark">
-                                <a href="#" className="lead">Soap Making</a>
-                            <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                                <Link to="/Soap-Making-Course" className="lead">Soap Making</Link>
+                            <p className="lead py-4">In this course you will discover how to make diferent type of soaps for different purposes using your own unique formulas. You will learn how to make your soaps from scratch using naturally sourced ingredients.</p>
                             <hr/>
                             </div>
                             <div className="col-md-2 text-title">COURSE 6</div>
                             <div className="col-md-10 text-dark">
-                                <a href="#" className="lead">Face Products</a>
-                            <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                                <Link to="/Soap-Making-Course" className="lead">Anhydrous Products and Scrubs</Link>
+                            <p className="lead py-4">In this course, we will be teaching you how to formulate products without water using different luxurious butters, carrier oils and extracts. We will cover emulsified scrubs, traditional scrubs, traditional body butters and lotion bars</p>
                             <hr/>
                             </div>
                             <div className="col-md-2 text-title">COURSE 7</div>
                             <div className="col-md-10 text-dark">
-                                <a href="#" className="lead">Branding and Marketing</a>
-                            <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                                <Link to="/Soap-Making-Course" className="lead">Face Products</Link>
+                            <p className="lead py-4">In this course, we will teach you how to care for the facial skin which is quite different from the skin on the body by creating mild but effective formulas using special ingredients. The lessons we will cover will include face masks, face toners, face serums, acn treatment products, face milks and special facial exfoliaants. </p>
+                            <hr/>
+                            </div>
+                            <div className="col-md-2 text-title">COURSE 8</div>
+                            <div className="col-md-10 text-dark">
+                                <p className="lead">Branding and Marketing</p>
+                            <p className="lead py-4">You may have the best and most effective skin care products but if you do not have the right skills needed to reach the right customers, you may not get any benefits fom your business. This course will introduce you to the importance of branding and marketing to skin care start-ups.</p>
                             <hr/>
                             </div>
                         </div></div>
@@ -165,11 +171,12 @@ export default class CertCourse extends Component {
                     <div className="row pb-0">
                     <div className="col-md-6 py-3"><h4 className="text-center text-title">Start today for a 20% discount</h4>
                         <ul>
-                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Shareable Specialization and Course Certificates</li>
-                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Course Videos & Readings</li>
-                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Self-Paced Learning Option</li>
-                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Graded Assignments and Practice Quizzes</li>
-                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Mentorship and Support</li>
+                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Study from anywhere in the world</li>
+                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Step-by-step demonstration videos</li>
+                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Directory for sourcing raw materials</li>
+                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Comprehensive E-book</li>
+                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Student mentorship and support</li>
+                        <li><i className="fas fa-arrow-right mr-3 py-3"></i>Certificate of Proficiency</li>
                         </ul>
                         <div className="text-center"><button className="btn btn-success enroll px-3">Enroll Now</button></div>
                     </div>
@@ -180,38 +187,8 @@ export default class CertCourse extends Component {
                 </div>
                 </div><hr/>
               </section>
-              <section className="mt-n5">
-                <div className="container">
-                    <div className="row gap-y mx-auto">
-                        <h3 className="text-title">About the Instructor </h3>
-                        <div className="col-12 d-md-flex">
-                            <div className="col-12 col-md-5 d-flex flex-md-row">
-                                <div>
-                                <img id="instructor-img-2" src={banner} alt=""/>
-                                </div>
-                                <div className="ml-3 pl-3 my-auto">
-                                    <p className="text-title mb-0">Esther C. Ojogwu</p>
-                                    <p>CEO - Etoile Beauty Nigeria</p>
-                                </div>
-                            </div>
-                            <div className="col-12 col-md-7 text-contrast bg-brand pb-3">
-                                <p className="lead pt-3">Etoile Beauty Academy</p>
-                                <p>The University of London is a federal University which includes 18 world leading Colleges. Our distance learning programmes were founded in 1858 and have enriched the lives of thousands of students, delivering high quality University of London degrees wherever our students are across the globe. Our alumni include 7 Nobel Prize winners. Today, we are a global leader in distance and flexible study, offering degree programmes to over 50,000 students in over 180 countries.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>   <hr/>
-              </section>
-              <section className="mt-n5">
-                <div className="container">
-                    <div className="row gap-y">
-                        <div className="col-md-7 mx-auto">
-                            <h3 className="text-center pb-4">Frequently Asked Questions</h3>
-                            <FaQ/>
-                        </div>
-                    </div>
-                  </div>
-              </section>
+              <AboutAcademy/>
+              <FaQ/>
             </div>
             </Certstyle>
         )
@@ -220,7 +197,7 @@ export default class CertCourse extends Component {
 
 const Certstyle = styled.div `
 .cert-header {
-    background: palevioletred;
+    background-image: linear-gradient(45deg, #fb31bd, #fc9e2196);
 }
 #cert-img {
     max-width: 400px;
@@ -242,13 +219,11 @@ const Certstyle = styled.div `
     border: 1px solid grey;
 }
 .skills {
-    font-size: 1rem;
+    font-size: .8rem;
     background: palevioletred;
     border-radius: .8rem;
-    margin-right: .8rem;
-    padding-left: .7rem;
-    padding-right: .7rem;
-    padding-bottom: .25rem;
+    margin-right: .5rem;
+    padding: .25rem .7rem;
 }
 .svgicon {
     font-size: 10px;

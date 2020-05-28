@@ -6,8 +6,8 @@ import {Link} from 'react-router-dom';
 export default function ShopByCategories() {
   return (
     <Sbc>
-      <div className="sbc text-center text-title">
-        <h2 className="page-title">Etoile Beauty Categories</h2>
+      <div className="container p-3">
+        <h3>Etoile Beauty Categories</h3>
       </div>
       <div className="container mx-auto flex-container row">
         <div className="col-md-6 col-sm-6 col-lg-6">

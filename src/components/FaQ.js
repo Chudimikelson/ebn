@@ -20,6 +20,14 @@ export default function SimpleExpansionPanel() {
   const classes = useStyles();
 
   return (
+    <>
+    <section className="mt-n5">
+                <div className="container">
+                    <div className="row gap-y">
+                        <div className="col-md-7 mx-auto">
+                            <h3 className="text-center pb-4">Frequently Asked Questions</h3>
+                            
+                        
     <div className={classes.root}>
       <ExpansionPanel>
         <ExpansionPanelSummary
@@ -27,12 +35,11 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Expansion Panel 1</Typography>
+          <Typography className="text-contrast bold">Will I get a certificate at the end of this course?</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+            Yes you will receive a certificate of profiency when you have successfully completed all modules and practicals.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -42,12 +49,11 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Expansion Panel 2</Typography>
+          <Typography className="text-contrast bold">Can I start my own skin care business with this course?</Typography>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
+            Yes, you can start your own natural skin care business with this course. It is detailed and comprehensive.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -57,9 +63,61 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel3a-content"
           id="panel3a-header"
         >
-          <Typography className={classes.heading}>Disabled Expansion Panel</Typography>
+          <Typography className="text-contrast bold">Do I need any pre-requisite knowledge/skill in skincare?</Typography>
         </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            No, you do not need any pre-requisite knowledge/skill for this training. This course is designed to cater for absolute beginners as well as seasoned formulator who wish to expand on their knowledge/skills in skincare products formulation.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          
+          aria-controls="panel4a-content"
+          id="panel4a-header"
+        >
+          <Typography className="text-contrast bold">I am not based in Nigeria, can enroll for this course?</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            Yes, you can. This course is designed to be taken online from anywhere in the world. The materials and video tutorials are downloadable.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          
+          aria-controls="panel5a-content"
+          id="panel5a-header"
+        >
+          <Typography className="text-contrast bold">Is this a pro-mixing course?</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            No, this is not a pro-mixing course. We strickly teach you how to formulate natural skincare products from scratch using safe natural ingredients.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+          
+          aria-controls="panel6a-content"
+          id="panel6a-header"
+        >
+          <Typography className="text-contrast bold">Are fees refundable?</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            No, fees are not refundable after payment.
+          </Typography>
+        </ExpansionPanelDetails>
       </ExpansionPanel>
     </div>
+    </div>
+                    </div>
+                  </div>
+              </section>
+    </>
   );
 }

@@ -5,13 +5,11 @@ import {Link} from 'react-router-dom';
 import advanced from '../photos/advanced.png';
 import FaQ from './FaQ';
 import { makeStyles } from '@material-ui/core/styles';
-import clsx from 'clsx';
-import Collapse from '@material-ui/core/Collapse';
-import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import AboutAcademy from './AboutAcademy';
 
 const useStyles = makeStyles((theme) => ({
     expand: {
@@ -131,7 +129,8 @@ export default function SoapCourse () {
                                 <div className="col-md-2 text-title">MODULE 2</div>
                                 <div className="col-md-10">
                                     <div className="text-dark d-flex flex-wrap">
-                                    <div className="round-icon bg-gradient-pink order-2 order-md-1"><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 order-md-1">3 hours to complete</span>
+                                    <div className="round-icon bg-gradient-pink order-2 order-md-1"><i className="far fa-large fa-clock"/>
+                                    </div><span className="lead my-auto ml-3 order-2 order-md-1">3 hours to complete</span>
                                     <div className="col-12 order-1 order-md-2 mt-md-3">
                                         <a href="#" className="lead">Raw Materials in Skincare</a>
                                         <p className="lead py-4">A Coursera Specialization is a series of courses that helps you master a skill. To begin, enroll in the Specialization directly, or review its courses and choose the one you'd like to start with. When you subscribe to a course that is part of a Specialization, you’re automatically subscribed to the full Specialization. It’s okay to complete just one course — you can pause your learning or end your subscription at any time. Visit your learner dashboard to track your course enrollments and your progress.</p>
@@ -156,25 +155,72 @@ export default function SoapCourse () {
                                     <hr/>
                                 </div>
                                 <div className="col-md-2 text-title">MODULE 3</div>
-                                <div className="col-md-10 text-dark">
-                                    <a href="#" className="lead">Preservatives, PH Stability and Temperature</a>
-                                    <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                                <div className="col-md-10">
+                                    <div className="text-dark d-flex flex-wrap">
+                                    <div className="round-icon bg-gradient-pink order-2 order-md-1"><i className="far fa-large fa-clock"/>
+                                    </div><span className="lead my-auto ml-3 order-2 order-md-1">3 hours to complete</span>
+                                    
+                                    <div className="col-12 order-1 order-md-2 mt-md-3">
+                                        <a href="#" className="lead">Preservatives, PH Stability and Temperature</a>
+                                        <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                                    </div>
+                                    </div>
+                                    <div className="course-panels">
+                                    <ExpansionPanel>
+                                    <ExpansionPanelSummary aria-controls="panel3a-content" id="panel2a-header">
+                                            <div className="d-flex w-100">
+                                            <div className="mt-3 round-icon bg-gradient-purple"><i className="far fa-large fa-play-circle"/></div><span className="mt-4 mx-3">10 Videos + Ebooks</span>
+                                            <span className="mt-4 ml-auto">See All<i className="ml-1 fas fa-angle-down"/></span>
+                                            </div>
+                                            </ExpansionPanelSummary>
+                                            <ExpansionPanelDetails>
+                                            <Typography>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                                                sit amet blandit leo lobortis eget.
+                                            </Typography>
+                                            </ExpansionPanelDetails>
+                                    </ExpansionPanel>
+                                    </div> 
                                     <hr/>
                                 </div>
                                 <div className="col-md-2 text-title">MODULE 4</div>
-                                <div className="col-md-10 text-dark">
+                                <div className="col-md-10">
+                                <div className="text-dark d-flex flex-wrap">
+                                <div className="round-icon bg-gradient-pink order-2 order-md-1"><i className="far fa-large fa-clock"/>
+                                    </div><span className="lead my-auto ml-3 order-2 order-md-1">3 hours to complete</span>
+                                    <div className="col-12 order-1 order-md-2 mt-md-3">
                                     <a href="#" className="lead">Body Lotions, Oils and Creams</a>
                                     <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
+                                    </div>
+                                    </div>
+                                    <div className="course-panels">
+                                    <ExpansionPanel>
+                                            <ExpansionPanelSummary aria-controls="panel2a-content" id="panel2a-header">
+                                            <div className="d-flex w-100">
+                                            <div className="mt-3 round-icon bg-gradient-purple"><i className="far fa-large fa-play-circle"/></div><span className="mt-4 mx-3">10 Videos + Ebooks</span>
+                                            <span className="mt-4 ml-auto">See All<i className="ml-1 fas fa-angle-down"/></span>
+                                            </div>
+                                            </ExpansionPanelSummary>
+                                            <ExpansionPanelDetails>
+                                            <Typography>
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                                                sit amet blandit leo lobortis eget.
+                                            </Typography>
+                                            </ExpansionPanelDetails>
+                                        </ExpansionPanel>
+                                    
+                                    </div>
+                                   
                                     <hr/>
                                 </div>
-                                <div className="col-md-2 text-title">MODULE 4</div>
+                                <div className="col-md-2 text-title">MODULE 5</div>
                                 <div className="col-md-10 text-dark">
                                     <div className="round-icon bg-gradient"><i className="far fa-large fa-clock"/></div>
                                     <a href="#" className="lead">Soap Making</a>
                                     <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
                                     <hr/>
                                 </div>
-                                <div className="col-md-2 text-title">MODULE 4</div>
+                                <div className="col-md-2 text-title">MODULE 6</div>
                                 <div className="col-md-10 text-dark">
                                     <a href="#" className="lead">Face Products</a>
                                     <p className="lead py-4">When you finish every course and complete the hands-on project, you'll earn a Certificate that you can share with prospective employers and your professional network.</p>
@@ -209,38 +255,7 @@ export default function SoapCourse () {
                         </div>
                 </div><hr/>
             </section>
-            <section className="mt-n5">
-            <div className="container">
-                <div className="row gap-y mx-auto">
-                    <h3 className="text-title">About the Instructor </h3>
-                    <div className="col-12 d-md-flex">
-                        <div className="col-12 col-md-5 d-flex flex-md-row">
-                            <div>
-                            <img id="instructor-img-2" src={banner} alt=""/>
-                            </div>
-                            <div className="ml-3 pl-3 my-auto">
-                                <p className="text-title mb-0">Esther C. Ojogwu</p>
-                                <p>CEO - Etoile Beauty Nigeria</p>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-7 text-contrast bg-brand pb-3">
-                            <p className="lead pt-3">Etoile Beauty Academy</p>
-                            <p>The University of London is a federal University which includes 18 world leading Colleges. Our distance learning programmes were founded in 1858 and have enriched the lives of thousands of students, delivering high quality University of London degrees wherever our students are across the globe. Our alumni include 7 Nobel Prize winners. Today, we are a global leader in distance and flexible study, offering degree programmes to over 50,000 students in over 180 countries.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>   <hr/>
-            </section>
-            <section className="mt-n5">
-            <div className="container">
-                <div className="row gap-y">
-                    <div className="col-md-7 mx-auto">
-                        <h3 className="text-center pb-4">Frequently Asked Questions</h3>
-                        <FaQ/>
-                    </div>
-                </div>
-                </div>
-            </section>
+            <AboutAcademy/><FaQ/>
         </div>
         </Soapstyle>
     );

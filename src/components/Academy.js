@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import advanced from '../photos/advanced.png';
 import styled from 'styled-components';
-import { MDBCollapse } from 'mdbreact';
 import Banner from './Banner';
+import FaQ from './FaQ';
 import { Link } from 'react-router-dom';
 
 export default class Academy extends Component {
@@ -20,11 +20,11 @@ export default class Academy extends Component {
       <>
       <Banner/>
       <Acad>
-        <section className="bg-light mt-n6">
+        <section className=" mt-n6">
           <div class="container bring-to-front pt-0">
             <div className="row gap-y">
               <div className="col-12">
-                <div class="shadow-box bg-brand p-3 rounded h-100">
+                <div class=" cert-header p-3 rounded h-100">
                   <h3 className="bold text-contrast">Become a Professional Skincare Formulator</h3>
                   <div className="row mx-auto" id="courses">
                     <div className="col-12 col-md-4">
@@ -116,28 +116,28 @@ export default class Academy extends Component {
         <section className="mt-n5">
           <div className="container">
             <div className="row gap-y">
-              <div className="col-12 col-md-7">
-                <div className="col-12 mx-auto">
+                <div className="col-12 col-md-6 mx-auto">
                 <h4 className="py-3">Skills your will learn at Etoile Beauty Academy</h4>
                 <ul className="list">
-                  <li><i className="fas fa-arrow-right mr-3"></i>Amazing</li>
-                  <li><i className="fas fa-arrow-right mr-3"></i></li>
-                  <li><i className="fas fa-arrow-right mr-3"></i></li>
-                  <li><i className="fas fa-arrow-right mr-3"></i></li>
-                  <li><i className="fas fa-arrow-right mr-3"></i></li>
+                  <li><i className="fas fa-arrow-right mr-3"></i>How to formulate skin care products from scratch</li>
+                  <li><i className="fas fa-arrow-right mr-3"></i>Identify non-toxic and eco-friendly natural ingredients</li>
+                  <li><i className="fas fa-arrow-right mr-3"></i>Launch a successful skincare brand</li>
                   <li> ... plus many more! </li>
                 </ul>
+             
+          
+                <div class="shadow rounded text-center overlay overlay-dark alpha-8 text-contrast p-5 image-background cover" style={{"background-image": "url(https://picsum.photos/350/200/?random&gravity=south)"}}>
+                    <div class="content">
+                        <div class="section-heading">
+                            <h4 class="text-contrast">What our graduates say</h4>
+                        </div>
+                        <p class="handwritten highlight font-md">Play the video</p><a href="https://www.youtube.com/watch?v=MXghcI8hcWU" class="modal-popup mfp-iframe btn-circle btn-primary" data-effect="mfp-fade"><i className="play ml-1 fas fa-play"></i></a>
+                    </div>
+                </div>
+        
               </div>
-              <div className="col-12 mx-auto">
-                <h4>Frequently Asked Questions About Skincare Formulation</h4>
-              </div>
-              </div>
-              <div className="col-12 col-md-5">
-              <div className="col-12 col-md-10 mx-auto bg-dark gallery">
-                <h5 className="text-contrast">Photo Gallery / Reviews</h5>
-              </div>
-              </div>
-              
+              <div className="col-12 col-md-6 p-0 m-0"><FaQ/></div>
+               
             </div>
           </div>
         </section>
@@ -149,6 +149,10 @@ export default class Academy extends Component {
 }
 
 const Acad = styled.div `
+
+.cert-header {
+    background-image: linear-gradient(45deg, #fb31bd, #fc9e2196);
+}
 .course-img {
   width:100%;
   max-width: 400px;
@@ -169,11 +173,14 @@ btn {
   color: #fff;
   background: palevioletred;
 }
+.play {
+  font-size: 1.7rem;
+}
 .list {
   list-style-type: none;
 }
 .gallery {
-  min-height: 500px;
+  min-height: 300px;
 }
 #ar-right{color:#fff}
 `
