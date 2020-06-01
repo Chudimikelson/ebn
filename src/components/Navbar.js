@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../logo.jpg';
+import logo from '../ebn-logo.jpg';
 import styled from 'styled-components';
 import Sidebar from './Sidebar';
 
@@ -35,7 +35,7 @@ export default class Navbar extends Component {
 
 const NavWrapper = styled.nav`
 .mylogo  {
-  height: 2rem;
+  height: 5rem;
   width: 9rem;
 }
 

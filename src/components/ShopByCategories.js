@@ -1,13 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
-import catPic1 from '../photos/active glow set.jpg';
+import catPic1 from '../photos/fresh glow set.jpg';
 import catPic2 from '../photos/allproducts.jpg';
 import {Link} from 'react-router-dom';
 export default function ShopByCategories() {
   return (
     <Sbc>
-      <div className="container p-3">
-        <h3>Etoile Beauty Categories</h3>
+      <div className="container pt-3 pb-0">
+        <div class="p-2"><span class="text-brand bold">Discover</span>
+          <h3>Etoile Beauty Trends</h3>
+        </div>
       </div>
       <div className="container mx-auto flex-container row">
         <div className="col-md-6 col-sm-6 col-lg-6">
@@ -18,7 +20,7 @@ export default function ShopByCategories() {
             
           </div> </Link> 
         </div>
-        <div className="col-md-6 col-sm-6 col-lg-6"><img className="img-fluid" alt="Natural Lightening and skin brightening lotions and creams for kids" style={{height:350}}  src={catPic1} /><Link to="/collections">
+        <div className="col-md-6 col-sm-6 col-lg-6"><img className="img-fluid" alt="Natural Lightening and skin brightening lotions and creams" style={{height:350}}  src={catPic1} /><Link to="/collections">
           <div className="finess mx-auto"><button className="py-1 text-capitalize">Collections</button>
           </div></Link>
         </div>

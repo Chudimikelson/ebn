@@ -32,7 +32,7 @@ export default function SoapCourse () {
             <section className="container-fluid cert-header">
                 <div className="container pt-7 pb-3">
                 <h4 className="text-light font-weight-light mb-0 pb-1">Etoile Beauty Academy</h4>
-                <h1 className="text-contrast bold display-lg-4">Soap Making Course</h1>
+                <h1 className="text-contrast bold display-lg-4">Making Natural Skincare Course</h1>
                 <p className="lead text-light pb-3 bbn">Start your journey in simple, natural and plant based skincare. Develop the knowledge you need to create your own skincare brand.</p>
                 <div className="py-3 text-contrast instructor">
                     <img id="instructor-img" src={banner} alt=""/> Esther C. Ojogwu
@@ -99,7 +99,7 @@ export default function SoapCourse () {
                             <h3 className="text-title text-center pb-4">Syllabus - What you will learn from this Course</h3>
                             <div className="row mx-auto">
                                 <div className="col-12 col-md-2 text-title">MODULE 1</div>
-                                <div className="col-md-10 ">
+                                <div className="col-md-10">
                                     <div className="text-dark d-flex flex-wrap">
                                         <div className="round-icon bg-gradient-pink order-2 order-md-1"><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 order-md-1">3 hours to complete</span>
                                         <div className="col-12 order-1 order-md-2 mt-md-3">

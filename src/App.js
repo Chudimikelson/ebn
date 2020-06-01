@@ -18,6 +18,7 @@ import Collection from './components/Collection';
 import Collections from './components/Collections';
 import CertCourse from './components/CertCourse';
 import SoapCourse from './components/SoapMaking';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -42,6 +43,7 @@ class App extends Component {
           <Route path="/DIY" component={Diy}/>
           <Route path="/Natural-Skincare-Formulation" component={CertCourse}/>
           <Route path="/Soap-Making-Course" component={SoapCourse}/>
+          <Route path="/Contact" component={Contact}/>
           <Route component={Default} />
         </Switch>
         <Modal/>

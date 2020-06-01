@@ -24,7 +24,7 @@ export default function SimpleExpansionPanel() {
     <section className="mt-n5">
                 <div className="container">
                     <div className="row gap-y">
-                        <div className="col-md-7 mx-auto">
+                        <div className="col-md-10 mx-auto">
                             <h3 className="text-center pb-4">Frequently Asked Questions</h3>
                             
                         

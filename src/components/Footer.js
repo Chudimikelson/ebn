@@ -32,14 +32,14 @@ export default class Footer extends Component {
                             <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-credit-card" /></div>
                             <h6 className="mt-3 mb-0 text-center text-light bold">Secure Checkout</h6>
                         </div>
-                        <div className="col-md-2 shadow-box py-1 shadow-hover">
+                        <div className="col-md-2 shadow-box py-1 shadow-hover"><Link className="no-decor-links" to="/Contact">
                             <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-headset" /></div>
-                            <h6 className="mt-3 mb-0 text-center text-light bold">Contact Us</h6>
+                            <h6 className="mt-3 mb-0 text-center text-light bold">Contact Us</h6></Link>
                         </div>
                     </div>
                     </div>
                     <hr className="border-dark my-md-5"/>
-                    <div className="row align-items-center">
+                    <div className="row align-items-center justify-content-between">
                         <div className="col-md-4 bbn">
                             <nav className="nav flex-wrap">
                                 <p className="nav-item py-1 mr-3" >FAQs</p>
@@ -49,8 +49,8 @@ export default class Footer extends Component {
                             </nav>
                         </div>
                         
-                        <div className="col-md-4 d-flex">
-                            <nav className="nav mx-auto ml-md-auto">
+                        <div className="col-12 col-md-3">
+                            <nav className="justify-content-between ml-md-auto">
                                 <a className="btn btn-sm btn-light mr-2" href="https://wa.me/+2348142195884"><i className="fab fa-whatsapp"></i>
                                 </a>
                                 <a className="btn btn-sm btn-light mr-2" href="https://facebook.com/etoileskincareng/shop"><i className="fab fa-facebook"></i>
@@ -61,10 +61,10 @@ export default class Footer extends Component {
                                 </a>
                                 <a className="btn btn-sm btn-light" href="#"><i className="fas fa-envelope"></i>
                                 </a>
-                            </nav>
+                            </nav>Connect on Social Media
                         </div>
                     </div>
-                    <div className="row align-items-center mt-md-4">
+                    <div className="row align-items-center mt-md-2">
                         <div className="col-md-6">
                             <p className="mt-4 small mb-md-0 text-center text-md-left">All Rights Reserved.</p>
                             <p className="small mb-md-0 text-center text-md-left">© 2020 Etoile Beauty Nigeria</p>

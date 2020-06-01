@@ -282,8 +282,8 @@ button:focus {
 } */
 
 
-.fab, .fas {
-  color: palevioletred;
+.fab, .fas, .text-brand {
+   color: palevioletred;
 }
 
 #menuBar {
@@ -373,7 +373,10 @@ button:focus {
 @media screen and (max-width:769px) {
   .bbn {
     display:none;
-  }  
+  } 
+  .text-gold {
+    font-size: 1rem;
+  } 
   .card-img-top {
     height:21rem;
   }

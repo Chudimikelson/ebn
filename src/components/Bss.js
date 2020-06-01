@@ -11,7 +11,9 @@ export default class ProductList extends Component {
             <div className="row gap-y">
               <div className="col-12 mx-auto">
                 <div class="shadow-box bg-contrast p-3 rounded h-100">
-                  <p className="bold mt-0">Best Sellers</p>
+                <div class="py-2"><span class="text-brand bold">Explore</span>
+          <h3>Bestsellers</h3>
+        </div>
                 <div className="row">
                 <ProductConsumer>
                       {value => {
