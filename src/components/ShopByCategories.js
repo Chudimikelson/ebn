@@ -6,22 +6,20 @@ import {Link} from 'react-router-dom';
 export default function ShopByCategories() {
   return (
     <Sbc>
-      <div className="container pt-3 pb-0">
-        <div class="p-2"><span class="text-brand bold">Discover</span>
+      <div className="shadow-box container row mx-auto">
+        <div class="col-12 p-2"><span class="text-brand bold">Discover</span>
           <h3>Etoile Beauty Trends</h3>
         </div>
-      </div>
-      <div className="container mx-auto flex-container row">
         <div className="col-md-6 col-sm-6 col-lg-6">
-          <img className="img-fluid" style={{height:350}}  src={catPic2}  alt="Etoile Beauty Nig skin lightening black soap brightening body lotion"/><Link to="/shop">
+          <img className="shadow-hover img-responsive" style={{height:400}} src={catPic2}  alt="Etoile Beauty Nig skin lightening black soap brightening body lotion"/><Link to="/shop">
           <div className="finess mx-auto">
             
-              <button className="py-1 text-capitalize">Shop All</button>
+              <button className="py-1 text-capitalize text-light">Shop All</button>
             
           </div> </Link> 
         </div>
-        <div className="col-md-6 col-sm-6 col-lg-6"><img className="img-fluid" alt="Natural Lightening and skin brightening lotions and creams" style={{height:350}}  src={catPic1} /><Link to="/collections">
-          <div className="finess mx-auto"><button className="py-1 text-capitalize">Collections</button>
+        <div className=" col-md-6 col-sm-6 col-lg-6"><img className="shadow-hover img-responsive" alt="Natural Lightening and skin brightening lotions and creams" style={{height:400}}  src={catPic1} /><Link to="/collections">
+          <div className="finess mx-auto"><button className="py-1 text-capitalize text-light">Collections</button>
           </div></Link>
         </div>
       </div>
@@ -39,12 +37,12 @@ const Sbc = styled.div `
 }
 
 .finess {
-  width:50%;
   font-size: 1.5rem;
-  background: rgba(250,248,250, 0.5);
+  background-image: linear-gradient(45deg,#fc9e2196, #fb31bd );
   position: relative;
   bottom: 10rem;
   text-align: center;
+  border-radius: 3%;
 }
 
 .btn:hover {

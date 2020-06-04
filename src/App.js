@@ -18,6 +18,7 @@ import Collection from './components/Collection';
 import Collections from './components/Collections';
 import CertCourse from './components/CertCourse';
 import SoapCourse from './components/SoapMaking';
+import Ebook from './components/Ebook';
 import Contact from './components/Contact';
 
 class App extends Component {
@@ -40,6 +41,7 @@ class App extends Component {
           <Route path="/checkout" component={Checkout} />
           <Route exact path="/shop" component={ProductList}/>
           <Route path="/Academy" component={Academy}/>
+          <Route path="/Ebook" component={Ebook}/>
           <Route path="/DIY" component={Diy}/>
           <Route path="/Natural-Skincare-Formulation" component={CertCourse}/>
           <Route path="/Soap-Making-Course" component={SoapCourse}/>

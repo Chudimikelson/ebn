@@ -15,11 +15,11 @@ export default class ProductList extends Component {
         />
         </Helmet>
         
-        <div className="container-fluid paddit">
+        <div className="">
          <Banner/>
-          <div className="py-2 mx-auto ">   
+          <div className="container pb-2 mx-auto bring-to-front mt-n5 mt-md-n6 bg-contrast">   
             <div className="flex-containerz row">
-            <div class="py-3 bbn col-12"><span class="text-brand bold">Etoile Beauty</span>
+            <div class="py-3 col-12 bg-contrast rounded"><span class="text-brand bold">Etoile Beauty</span>
           <h3>Amazing Products</h3>
         </div>
               <ProductConsumer>

@@ -16,8 +16,8 @@ export default class Details extends Component {
         <meta name="description" content="Etoile Beauty Nigeria is your best bet for buying organic and natural skin care products, lightening black soap, brightening lotions, creams and oils for a natural glowing face, body and all-round beauty"
         />
         </Helmet>
-            <EmptyWrapper className="container d-flex flex-wrap paddit">
-              <div className="col-12 col-lg-4">
+            <EmptyWrapper className="container d-flex flex-wrap paddit mt-md-6">
+              <div className="col-12 col-lg-4 pt-md-5">
               <h2 className="page-title text-center font-weight-bold mb-0">{title}</h2>
               <img src={img} className="mx-auto card img-fluid" alt="product"/>
               <p className="text-center page-title">
@@ -26,7 +26,7 @@ export default class Details extends Component {
                         </strong>
                 </p>
               </div>
-              <div className="col-12 col-lg-8 page-title">
+              <div className="col-12 col-lg-8 page-title pt-md-6">
                 <div>
                 <li><strong>Description</strong><br/>
           {description}

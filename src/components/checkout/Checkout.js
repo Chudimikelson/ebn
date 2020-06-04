@@ -59,10 +59,36 @@ export default class Checkout extends Component {
               return(
                 
      <React.Fragment>
-       
-      <div className="paddit container">
+       <Spaces>
+         <section className="cert-header">
+                  <div className="container ">
+                    <div className="container row gap-y">
+                      <div className="col-md-10">
+                        <h1 className="text-contrast regular">Your Cart</h1>
+                        <p className="mb-0 text-light">Please fill your payment and shipping details</p>
+                      </div>
+                      <div className="col-md-2">
+                        <h2 className="h1 text-contrast">$654.</h2>
+                        <p className="mb-0 text-light">8 items</p>
+                    </div>
+                    </div>
+                  </div>
+                  <div className="bg-light shadow-box">
+                <div className="container bring-to-front py-0">
+                    <nav aria-label="breadcrumb">
+                        <ol className="breadcrumb small">
+                            <li className="breadcrumb-item"><a href="../">Home</a></li>
+                            <li className="breadcrumb-item"><a href="home.html">Shop</a></li>
+                            <li className="breadcrumb-item active" aria-current="page">Cart</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+                  
+              </section>
+      <div className="container">
       
-        <Spaces>
+       
         <div className="col-12">
           <h4 className="col-10 mx-auto text-title  text-center text-capitalize">
             Checkout
@@ -130,9 +156,9 @@ export default class Checkout extends Component {
           </div>
           </form>
         </div>
-        </Spaces>
+       
         
-      </div>
+      </div> </Spaces>
      </React.Fragment>
      );
     } else {
@@ -144,6 +170,9 @@ export default class Checkout extends Component {
   }
 }
 const Spaces = styled.div `
+.cert-header {
+    background-image: linear-gradient(45deg, #fb31bd, #fc9e2196);
+}
 .steps-text {
   font-size: 1.7rem;
 }

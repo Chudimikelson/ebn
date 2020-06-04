@@ -11,7 +11,7 @@ export default class Bestsells extends Component {
           const {id,usage,description,img, life, contains, price, title,inCart} = value.detailCat;
           return (
             <EmptyWrapper className="container d-flex flex-wrap paddit">
-              <div className="col-12 col-lg-4">
+              <div className="col-12 col-lg-4 mt-5">
               <h2 className="page-title text-center font-weight-bold mb-0">{title}</h2>
               <img src={img} className="mx-auto card img-fluid" alt="product"/>
               <p className="text-center page-title">
@@ -20,7 +20,7 @@ export default class Bestsells extends Component {
                         </strong>
                 </p>
               </div>
-              <div className="col-12 col-lg-8 page-title">
+              <div className="col-12 col-lg-8 page-title mt-md-5">
                 <div>
                 <li><strong>Description</strong><br/>
           {description}

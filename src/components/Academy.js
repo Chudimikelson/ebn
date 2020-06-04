@@ -24,27 +24,19 @@ export default class Academy extends Component {
     return (
       <>
        <Bannerstyle>
-    <section className="section">
-      <div className="swiper-container shop-home-slider">
-        <div className="swiper-wrapper">
-          <div className="swiper-slide">
-            <div className="container-fluid pt-6 cert-header">
-              <div className="row justify-content-between">
-                <div className="col-6 col-md-4 px-0 order-2 d-flex">
-                  
-                <img id="cover2" className="img-responsive" alt="Etoile Beauty Nig" src={banner} /></div>
-                <div className="col-6 col-md-8 ml-auto my-auto">
-                  <div className="text-center text-left text-nowrap">
-                    <h4 className="text-contrast text-gold font-weight-bold mb-0 pb-1">The Good Skin Fairy</h4>
-                    <h4 className="text-contrast bold display-lg-4">Etoile Beauty</h4>
-                    <p className="lead text-light pb-3 bbn bold">Skincare Training Academy</p>
+    <section className="paddit">      
+            <div className="container-fluid d-flex justify-content-between cert-header mb-4">
+                <div className="col-7 col-md-8 ml-auto my-auto">
+                  <div className="text-center text-nowrap">
+                    <p className="text-gold text-light mb-0 pb-1">The Good Skin Fairy</p>
+                    <h2 className="text-contrast bold display-lg-2">Etoile Beauty</h2>
+                    <h3 className=" text-light text-gold font-weight-bold">Skincare Training Academy</h3>
                   </div>
                 </div>
-              </div>
+                <div className="col-5 col-md-4">
+                  
+                <img id="cover2" className="img-responsive p-2" alt="Etoile Beauty Nig" src={banner} /></div>
             </div>
-          </div>    
-        </div>
-      </div>
     </section>
     </Bannerstyle>
       <Acad>
@@ -81,7 +73,9 @@ export default class Academy extends Component {
                         </div>
                       </div></Link>
                     </div>
-          <div className="col-12 col-md-4"><div className="card shadow-hover">
+          <div className="col-12 col-md-4">
+          <Link className="no-decor-links" to="/Ebook">
+            <div className="card shadow-hover">
             <div className="card-body">
               <div className="card-title">Guide to Natural Skincare Formulation </div>
               <img className="image-responsive course-img" src={guide} alt="etoile academy"/>
@@ -91,7 +85,9 @@ export default class Academy extends Component {
               <div>EBOOK</div>
             </div>
             
-            </div></div>
+            </div>
+            </Link>
+            </div>
                   </div>
                   
                 </div>
@@ -212,10 +208,8 @@ const Bannerstyle = styled.div `
 }
 #cover1, #cover2 {
   border-radius: 50%;
-}
-#cover2, #cover1 {
-  height: 10rem;
-  width: auto;
+  border: solid 5px gold;
+  max-width: 19rem;
 }
 .finess {
   position: relative;

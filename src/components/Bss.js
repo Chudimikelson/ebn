@@ -6,15 +6,15 @@ export default class ProductList extends Component {
   render() {
     return (
 
-        <section className="bg-light mt-n6">
-          <div class="container bring-to-front pt-0">
+        <section className="mt-n5 mt-md-n6 mb-4">
+          <div class="shadow-box container bring-to-front">
             <div className="row gap-y">
-              <div className="col-12 mx-auto">
-                <div class="shadow-box bg-contrast p-3 rounded h-100">
+              <div className="col-12">
+                <div class="bg-contrast p-3 rounded h-100">
                 <div class="py-2"><span class="text-brand bold">Explore</span>
           <h3>Bestsellers</h3>
         </div>
-                <div className="row">
+                <div className="row mx-auto">
                 <ProductConsumer>
                       {value => {
                         return value.bestsellers.map( bestseller => {

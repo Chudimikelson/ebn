@@ -16,13 +16,13 @@ export default class Footer extends Component {
                             <div class="bg-light p-3 icon-xl shadow-box rounded-circle center-flex mx-auto"><i className="fas fa-chalkboard-teacher" /></div>
                             <h6 className="mt-3 mb-0 text-center text-light bold">Etoile Academy</h6></Link>
                         </div>
-                        <div className="col-md-2 shadow-box py-1 shadow-hover">
+                        <div className="col-md-2 shadow-box py-1 shadow-hover"><Link className="no-decor-links" to="/shop">
                             <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-store"/></div>
-                            <h6 className="mt-3 mb-0 text-center text-light bold">DIY Store</h6>
+                            <h6 className="mt-3 mb-0 text-center text-light bold">Shop Products</h6></Link>
                         </div>
                         <div className="col-md-2 shadow-box py-1 shadow-hover">
                             <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i  className="fas fa-shipping-fast"/></div>
-                            <h6 className="mt-3 mb-0 text-center text-light bold">Shipping Information</h6>
+                            <h6 className="mt-3 mb-0 text-center text-light bold">Express Shipping</h6>
                         </div>
                         <div className="col-md-2 shadow-box py-1 shadow-hover">
                             <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-route"/></div>

@@ -369,13 +369,22 @@ button:focus {
   padding: .5rem;
   font-weight: 200;
 }
-
+.mybtn:hover {
+  box-shadow: 0 1px 10px white !important;
+}
 @media screen and (max-width:769px) {
+  .finess {
+    width: 50%;
+  }
   .bbn {
     display:none;
   } 
   .text-gold {
     font-size: 1rem;
+  }
+  #cover2, #cover1 {
+    max-height: 9rem;
+    width: auto;
   } 
   .card-img-top {
     height:21rem;
@@ -440,7 +449,12 @@ button:focus {
 }
 
 @media screen and (min-width:1200px) {
-
+  .finess {
+    width: 30%;
+  }
+  .text-gold {
+    font-size: 2rem;
+  }
   .collection-image {
     height:300px;
   }

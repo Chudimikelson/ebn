@@ -18,7 +18,7 @@ export default class Collection extends Component {
         />
         </Helmet>
             <EmptyWrapper className="container d-flex flex-wrap paddit">
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6 mt-5">
               <h2 className="page-title text-center font-weight-bold">{title}</h2>
               <img src={img} className="justify-content-center collection-image col-lg-6" alt="product"/>
               <p className="text-center page-title">
@@ -27,7 +27,7 @@ export default class Collection extends Component {
                         </strong>
                 </p>
               </div>
-              <div className="col-12 col-lg-6 page-title">
+              <div className="col-12 col-lg-6 page-title mt-md-5">
                 <div>
                 <li><strong>Description</strong><br/>
           {description}

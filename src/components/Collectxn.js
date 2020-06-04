@@ -16,7 +16,7 @@ export default class Collectxn extends Component {
               onClick={()=>{value.handleCollectionDetail(id)}}
               ><Link to="/collection">
                  <img className="collection-image" src={img} alt="Etoile Beauty Nig organic natural black soap body lotion face cream skin glowing lightening brightening serum oil mask"/></Link>
-                  <div className="finess  ">
+                  <div className="finess  w-100">
                     <button className="cart-btn text-center text-capitalize"
                       disabled={inCart ? true : false}
                       onClick={() => {

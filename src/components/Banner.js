@@ -6,26 +6,18 @@ import {Link} from 'react-router-dom';
 const Banner = () => {
   return (
     <Bannerstyle>
-    <section className="section">
-      <div className="swiper-container shop-home-slider">
-        <div className="swiper-wrapper">
-          <div className="swiper-slide">
-            <div className="container-fluid pt-6 pb-7 py-md-0" style={{"background-color": "rgb(0, 145, 175)"}}>
-              <div className="row align-items-center">
-                <div className="col-6 col-lg-6 px-0 order-2"><img className="img-responsive" alt="Etoile Beauty Nig" src={banner} /></div>
-                <div className="col-6 col-lg-4 ml-auto">
-                  <div className="text-center text-left text-nowrap">
+    <section className="paddit">
+            <div className="container-fluid d-flex justify-content-between" style={{"background-color": "rgb(0, 145, 175)"}}>
+                <div className="col-5 col-md-5 order-2"><img className="img-responsive" alt="Etoile Beauty Nig" src={banner} /></div>
+                <div className="col-7 col-md-7 ml-auto my-auto">
+                  <div className="text-center text-nowrap">
                     <h4 className="text-light font-weight-light mb-0 pb-1">The Good Skin Fairy</h4>
-                    <h1 className="text-contrast bold display-lg-4">Etoile Beauty </h1>
+                    <h1 className="text-contrast bold display-lg-2">Etoile Beauty </h1>
                     <p className="lead text-light pb-3 bbn">Simple, Natural and Plant Based Skincare</p>
-                    <Link to="/shop"><button className="btn btn-primary mt-3">Shop Now</button></Link>
+                    <Link to="/shop"><button className="mybtn btn btn-primary mt-3 text-light bold">Shop Now</button></Link>
                   </div>
                 </div>
-              </div>
             </div>
-          </div>    
-        </div>
-      </div>
     </section>
     </Bannerstyle>
   );
@@ -38,19 +30,11 @@ img {
   width: auto;
   border-radius: 50%;
 }
-.finess {
-  position: relative;
-  bottom: 3rem;
-  left: 0;
-}
-.fines {
-  position: relative;
-  top: 6rem;
-  color: #fff;
-}
 .btn {
-  background: palevioletred;
+  background-image: linear-gradient(45deg, #fc9e2196, #fb31bd);
+  border: none;
 }
+
 `
 
 export default Banner;
