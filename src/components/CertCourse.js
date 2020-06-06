@@ -25,7 +25,7 @@ export default function CertCourse () {
                         <img id="instructor-img" src={banner} alt=""/> Esther C. Ojogwu
                         <span className="mr text-light lead"> - Instructor</span>
                     </div>
-                    <div className="btn btn-primary mt-2">Enroll Now</div>
+                    <a href="https://paystack.com/pay/etoilensf" target="_blank" className="btn btn-primary mt-2">Enroll Now</a>
                   </div>
                   
               </section>
@@ -358,7 +358,7 @@ export default function CertCourse () {
                         <li><i className="fas fa-arrow-right mr-3 py-3"></i>Student mentorship and support</li>
                         <li><i className="fas fa-arrow-right mr-3 py-3"></i>Certificate of Proficiency</li>
                         </ul>
-                        <div className="text-center"><button className="btn btn-success enroll px-3">Enroll Now</button></div>
+                        <div className="text-center"><a href="https://paystack.com/pay/etoilensf" target="_blank" className="btn btn-success enroll px-3">Enroll Now</a></div>
                     </div>
                     <div className="col-md-5 my-auto">
                         <img src={advanced} alt="" id="cert-img"/>

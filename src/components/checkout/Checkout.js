@@ -5,6 +5,7 @@ import {ProductConsumer} from '../../Context';
 import EmptyCart from '../Cart/EmptyCart';
 import CartTotals from '../Cart/CartTotals';
 import PaystackPay from '../Cart/PaystackPay';
+import {Link} from 'react-router-dom'; 
 
 
 
@@ -49,7 +50,7 @@ export default class Checkout extends Component {
       <ProductConsumer>
           {value =>{
             
-            const {cart,cartTotal,clearCart} = value;
+            const {cart,cartTotal,shipping, cartSubTotal,clearCart} = value;
             const cartItems = cart.map(cartItem => cartItem.count + " " + cartItem.title);
             const maill = this.state.emaill;
             const phone = this.state.phone;
@@ -60,74 +61,75 @@ export default class Checkout extends Component {
                 
      <React.Fragment>
        <Spaces>
-         <section className="cert-header">
-                  <div className="container ">
-                    <div className="container row gap-y">
+         <section className="cert-header paddit">
+                    <div className="container ">
                       <div className="col-md-10">
-                        <h1 className="text-contrast regular">Your Cart</h1>
-                        <p className="mb-0 text-light">Please fill your payment and shipping details</p>
+                        <h3 className="text-contrast regular">Your Cart</h3>
+                        <h2 className="h1 text-contrast"><span className="mr-1">&#8358;</span>{cartTotal}<small>.00</small></h2>
+                        <p className="mb-0 text-light">Please fill your Shipping Details and procedd to Payment</p>
                       </div>
-                      <div className="col-md-2">
-                        <h2 className="h1 text-contrast">$654.</h2>
-                        <p className="mb-0 text-light">8 items</p>
                     </div>
-                    </div>
-                  </div>
-                  <div className="bg-light shadow-box">
-                <div className="container bring-to-front py-0">
+                <div className="container py-0">
                     <nav aria-label="breadcrumb">
-                        <ol className="breadcrumb small">
-                            <li className="breadcrumb-item"><a href="../">Home</a></li>
-                            <li className="breadcrumb-item"><a href="home.html">Shop</a></li>
+                        <ol className="breadcrumb small bg-dark no-decor-links">
+                            <li className="breadcrumb-item"><Link to="/">Home</Link></li>
+                            <li className="breadcrumb-item"><Link to="/shop">Shop</Link></li>
                             <li className="breadcrumb-item active" aria-current="page">Cart</li>
                         </ol>
                     </nav>
                 </div>
-            </div>
                   
               </section>
-      <div className="container">
-      
-       
-        <div className="col-12">
-          <h4 className="col-10 mx-auto text-title  text-center text-capitalize">
-            Checkout
-          </h4>
-          <form onSubmit={this.getEmail} onBlur={this.handleHero}  >
+      <section className="section">
+        <div className="container pt-0">
           <div className="row">
-              <div className="col-12 col-md-4">
-                <div className="row steps-text">
-                  <div className="badge pt-2">1</div>
-                  <div className="align-self-center">Order Summary</div>
-                </div>
-              <div className="row mr-2">
-                <CartList value={value}/>
-                <CartTotals value={value} history={this.props.history} />
-              </div>
-            </div>
-            <div className="col-12 col-md-8">
-              <div className="row">
-              <div className="col-md-6">
-                <div className="row steps-text mb-2">
-                  <div className="badge pt-2" >2</div>
-                  <div className="align-self-center">Delivery Information</div>
-                </div>
-                <div className="row">
-                  <div className="paddin" style={{width:'100%'}}  >
-                    <input onBlur={this.getFullname} ref={this.customerName} type="text" name="" placeholder="Receiver's Name"/>                
-                      <input onBlur={this.getEmail} ref={this.customerEmail} className = "email" type="text" placeholder="Please enter e-mail"/>
-                    <input onBlur={this.getPhone} ref = {this.customerPhone} type="text" name="" placeholder="your phone number"/>
-                    <input onBlur={this.getAddress} ref={this.customerAddress} className="addressfield" type="text" placeholder="Your full address." name=""/>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="row steps-text">
-                  <div className="badge pt-2">3</div>
-                  <div className="">Pay via Paystack</div>
-                </div>
-                <div className="row"><div className="col-12 text-center">
-                  <PaystackPay 
+            {/** cart items */}
+            <CartList value={value}/>
+            {/** sidebar*/}
+            <aside class="col-lg-4 pt-4 pt-lg-0 mt-md-n8 bring-to-front">
+              <div class="card shadow border-0 rounded-lg">
+                <div class="card-body">
+                  <CartTotals value={value} history={this.props.history} />
+                  {/** customer details  */}
+                  <div class="card">
+                                        <div class="card-header"><a href="#" class="card-title btn bold" data-toggle="collapse" data-target="#clp-promo"><i class="fas fa-angle-down angle"></i>Customer Information</a></div>
+                                        <div id="clp-promo" class="collapse show" data-parent="#cart-options">
+                                            <div class="card-body">
+                                                <form class="form" onSubmit={this.getEmail} onBlur={this.handleHero}>
+                                                    <div class="form-group"><label for="email" class="control-label">Email Address</label>
+                                                    <input onBlur={this.getEmail} ref={this.customerEmail} className = "form-control" type="text" placeholder="Your Email Address"/>
+                                                    <p class="my-0 small text-muted">Your registered email address</p>
+                                                    </div>
+                                                    <div class="form-group"><label for="phone" class="control-label">Phone Number</label> <input onBlur={this.getPhone} ref = {this.customerPhone} className = "form-control" type="text" placeholder="Your Phone Number"/>
+                                        <p class="my-0 small text-muted">Receiver's Mobile Number</p>
+                                    </div>
+                                    <div className="form-group">
+                                      <label for="address" className="control-label">Shipping to</label>
+                                      <textarea onBlur={this.getAddress} ref={this.customerAddress}  className="form-control bg-contrast" placeholder="Your Address, 1234 Your Street, Your City" rows="4" required=""></textarea>
+                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {/** TOTAL */}
+                                <hr class="my-4"/>
+                                <div className="d-flex flex-wrap text-capitalize justify-content-between">
+            <p className="text-capitalize bold text-darker">Shipping fee: </p>
+            <p className="bold price ml-sm-auto"><span className="mr-1">&#8358;</span>{shipping} </p>
+          </div>
+                                <div className="d-flex flex-wrap text-capitalize justify-content-between">
+            <p className="bold text-darker text-capitalize">sub total</p>
+            <p className="bold price ml-sm-auto"><span className="mr-1">&#8358;</span> {cartSubTotal} </p>
+          </div>
+                                <div class="d-flex flex-wrap justify-content-between">
+                                    <p class="bold text-darker text-uppercase">Total</p>
+                                    <p class="h5 bold price ml-sm-auto"><span>&#8358;</span> {cartTotal} </p>
+                                </div>{/** Proceed  */}
+                                <div className="card">
+                                <div className="card-header">
+                                  <p className="card-title btn bold"><i className="fas fa-credit-card mr-2"></i>Proceed to Payment</p>
+                                </div>
+                                <PaystackPay 
                   key={cartItems}
                   customerphone = {phone}
                   customermail = {maill}
@@ -137,28 +139,15 @@ export default class Checkout extends Component {
                   history={this.props.history} 
                   total={cartTotal} 
                   cartItems = {cartItems}/>
-                  <p>All transactions are secure and encrypted.</p>
-                  <div id="paystack-footer" className="paystack-footer text-center py-2 animated fadeIn">
-                    <a target="_blank" rel="noopener noreferrer" href="https://paystack.com/what-is-paystack">
-                    <img alt="Paystack secured badge" src="https://paystack.com/assets/payment/img/paystack-badge-cards.png"/>
-                    </a>
-                  </div>
-                  <div className="payment-options">
-                    
-                    {/* <div className="p-type "><input type="radio" name="paymentmethod" value="wu"/>Western Union
-                      <p className="wu">(For Customers Outside Nigeria Only. Please Contact Customer Care for Payment Procedure)</p>
-                    </div> */}
-                  </div></div>
+                                </div>
                 </div>
               </div>
-              </div>
+            </aside>
+            
             </div>
-          </div>
-          </form>
         </div>
-       
         
-      </div> </Spaces>
+      </section> </Spaces>
      </React.Fragment>
      );
     } else {

@@ -41,10 +41,10 @@ class App extends Component {
           <Route path="/checkout" component={Checkout} />
           <Route exact path="/shop" component={ProductList}/>
           <Route path="/Academy" component={Academy}/>
-          <Route path="/Ebook" component={Ebook}/>
+          <Route path="/NSF-Ebook" component={Ebook}/>
           <Route path="/DIY" component={Diy}/>
           <Route path="/Natural-Skincare-Formulation" component={CertCourse}/>
-          <Route path="/Soap-Making-Course" component={SoapCourse}/>
+          <Route path="/Mini-Course" component={SoapCourse}/>
           <Route path="/Contact" component={Contact}/>
           <Route component={Default} />
         </Switch>

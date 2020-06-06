@@ -372,6 +372,12 @@ button:focus {
 .mybtn:hover {
   box-shadow: 0 1px 10px white !important;
 }
+.carousel-item img {
+  max-width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-height: 400px !important;
+}
 @media screen and (max-width:769px) {
   .finess {
     width: 50%;

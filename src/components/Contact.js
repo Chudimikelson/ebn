@@ -38,7 +38,7 @@ export default function Contact() {
                     <div class="media-body">5 Akpusi Celestine Crescent, Abuja,<span class="d-block">FCT Nigeria</span></div>
                 </div>
                 <div class="media my-4"><i class="fas fa-phone font-l text-primary mr-3"></i>
-                    <div class="media-body"><span class="d-block"><a href="tel:+234-814-219-5884">(234) 814-219-5884</a></span> <span class="d-block"><a href="tel:+234-814-219-5884">(234) 814-219-5884</a></span></div>
+                    <div class="media-body"><span class="d-block"><a href="tel:+234-814-219-5884">(234) 814-219-5884</a></span> <span class="d-block"><a href="tel:+234-814-219-5884">(234) 902-485-9316</a></span></div>
                 </div>
                 
                 <div className="col-md-8">

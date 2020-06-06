@@ -11,6 +11,7 @@ import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
 import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import AboutAcademy from './AboutAcademy';
 import Breadcrumb from './Breadcrumb';
+import Review from './ReviewsCarousel';
 
 const useStyles = makeStyles((theme) => ({
     expand: {
@@ -40,7 +41,7 @@ export default function SoapCourse () {
                     <img id="instructor-img" src={banner} alt=""/> Esther C. Ojogwu
                     <span className="mr text-light lead"> - Instructor</span>
                 </div>
-                <div className="btn btn-primary mt-2">Enroll Now</div>
+                <a href="https://paystack.com/pay/etoileminicourse" target="_blank" className="btn btn-primary mt-2">Enroll Now</a>
                 </div>
                 
             </section>
@@ -126,11 +127,11 @@ export default function SoapCourse () {
                                     <li className="py-3 text-dark"><i className="fas fa-user-graduate"/><span className="ml-3">Beginner level</span></li>
                                     </ul>
                                 </div>
-                                    <div className="text-center"><button className="btn btn-success enroll px-3">Enroll Now</button></div>
+                                    <div className="text-center"><a href="https://paystack.com/pay/etoileminicourse" target="_blank" className="btn btn-success enroll px-3">Enroll Now</a></div>
                                 </div>
                                 <div className="col-md-6">
-                                    <p>What our past students had to say</p>
-                                    <img src={advanced} alt="" id="cert-img"/>
+                                    {/** <p>What our past students had to say</p> */}
+                                    <Review/>
                                 </div>
                             </div>
                         </div>

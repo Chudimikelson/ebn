@@ -61,7 +61,7 @@ export default class Academy extends Component {
                       </div></Link>
                     </div>
                     <div className="col-12 col-md-4">
-                      <Link className="no-decor-links" to="/Soap-Making-Course">
+                      <Link className="no-decor-links" to="/Mini-Course">
                       <div className="card shadow-hover">
                         <div className="card-body">
                           <div className="card-title">Making Natural Skincare Products</div>
@@ -74,7 +74,7 @@ export default class Academy extends Component {
                       </div></Link>
                     </div>
           <div className="col-12 col-md-4">
-          <Link className="no-decor-links" to="/Ebook">
+          <Link className="no-decor-links" to="/NSF-Ebook">
             <div className="card shadow-hover">
             <div className="card-body">
               <div className="card-title">Guide to Natural Skincare Formulation </div>
@@ -105,11 +105,11 @@ export default class Academy extends Component {
                       <div className="col-md-6 py-3">
                         <div className="mb-3">Etoile Skincare BootCamp</div>
                         <h5>Empower yourself with our one month hands-on training on professional skincare formulation</h5>
-                        <p>Apply Now to build a career and start a business of your own. Registration closes by April 19th</p>
+                        <p>Apply Now to build a career and start a business of your own. Registration closes by July 2, 2020</p>
                       </div>
                       <div className="col-12 col-md-6 my-auto">
                         <img className="image-responsive course-img" src={cover} alt="etoile academy"/>
-                        <div><button className="btn btn-success my-3">Register</button></div>
+                        <div><Link to="/Natural-Skincare-Formulation"><button className="btn btn-success my-3">Register</button></Link></div>
                       </div>
                     </div>
                     <div className="col-12 col-md-6 d-md-flex mini-course">
@@ -120,7 +120,7 @@ export default class Academy extends Component {
                       </div>
                       <div className="col-12 col-md-6 my-auto">
                         <img src={minicourse} alt="etoile academy" className="image-responsive course-img"/>
-                        <div><button className="btn btn-success my-3">Register</button></div>
+                        <div><Link to="/Mini-Course"><button className="btn btn-success my-3">Register</button></Link></div>
                       </div>
                     </div>
                   </div>

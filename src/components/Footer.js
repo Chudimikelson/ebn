@@ -53,7 +53,7 @@ export default class Footer extends Component {
                             <nav className="justify-content-between ml-md-auto">
                                 <a className="btn btn-sm btn-light mr-2" href="https://wa.me/+2348142195884"><i className="fab fa-whatsapp"></i>
                                 </a>
-                                <a className="btn btn-sm btn-light mr-2" href="https://facebook.com/etoileskincareng/shop"><i className="fab fa-facebook"></i>
+                                <a className="btn btn-sm btn-light mr-2" href="https://facebook.com/pg/Etoile-Skincare-1051120401713986/posts"><i className="fab fa-facebook"></i>
                                 </a>
                                 <a className="btn btn-sm btn-light mr-2" href="https://instagram.com/etoile_skincare"><i className="fab fa-instagram"></i>
                                 </a>

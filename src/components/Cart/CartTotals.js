@@ -1,25 +1,20 @@
 import React from 'react';
 
 export default function CartTotals({value}) {
-  const {cartSubTotal,cartTotal,location,shipping,method} = value;
+  const {location, method} = value;
   
   return (
-        <div className="row">
-          <div className="col-12 my-2 text-capitalize">
-            <span className="text-capitalize">sub total :</span>
-            <strong><span className="mx-1">&#8358;</span> {cartSubTotal} </strong>
-          </div>
-          <div className="d-flex">
-          <div className="col-6 mb-2 text-capitalize">
-            <span className="text-capitalize mr-2">Shipping: </span>
-            <strong><span className="mx-1">&#8358;</span>{shipping} </strong>
-          </div>
-          <div className="col-6 mb-2 d-flex">
-          <select value={method} onChange={(e)=>value.getMethod(e)}> 
-            <option value="regular">Regular</option>
-            <option value="doorstep">Doorstep</option>
-          </select>
-          <select value={location} onChange={(e)=> value.getLocation(e)}>
+    <>
+                                    {/**  Shipping Options */}
+                                    <div class="card">
+                                        <div class="card-header"><a href="#" class="card-title btn bold" data-toggle="collapse" data-target="#clp-shipping"><i class="fas fa-angle-down angle"></i>Shipping Options</a></div>
+                                        <div id="clp-shipping" class="collapse show" data-parent="#cart-options">
+                                            <div class="card-body">
+                                              <div className="form-group shadow-box p-3">
+                                                <label className="control-label font-sm text-dark">
+                                                  Delivery Location
+                                                </label>
+                                                <select className="form-control" value={location} onChange={(e)=> value.getLocation(e)}>
             <option value="Abuja">Abuja</option>
 						<option value="Lagos">Lagos</option>
 						<option value="Portharcourt">Portharcourt</option>
@@ -43,14 +38,19 @@ export default function CartTotals({value}) {
 						<option value="Uyo">Uyo</option>
 						<option value="Warri">Warri</option>
 						</select>
-             </div>
-            </div>
-          <div className="col-12 text-capitalize">
-              <span className="text-capitalize">Total :</span>
-              <strong><span className="mr-1">&#8358;</span> {cartTotal} </strong>
-          </div>
-
-        </div>
+                                              </div>
+                                            <div className="form-group shadow-box p-3">
+                                            <label class="control-label font-sm text-dark">Shipping Method</label>
+                                            <select class="form-control"  value={method} onChange={(e)=>value.getMethod(e)}> 
+            <option value="regular">Regular</option>
+            <option value="doorstep">Doorstep</option>
+          </select>
+          <p class="small text-muted my-0">1 month - Tuesday, Dec 3rd 2019</p>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+  </>
   );
 }
 

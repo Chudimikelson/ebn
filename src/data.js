@@ -189,7 +189,7 @@ export const storeProducts = [
 ];
 
 export const detailProduct = {
-  id: 6,
+  id: 1,
   title: "Turmeric Soap",
   img: "img/turmeric soap.jpg",
   price: 3500,
@@ -272,7 +272,7 @@ export const bestsellerProducts = [
 {
   id: 17,
   title: "Basic Glow",
-  img: "img/basic glow set.jpg",
+  img: "img/basic glow.jpg",
   price: 5500,
   description: "Specially curated to brighten dull skin by exfoliating the skin, keeping it moisturized and help to fade stretch marks",
   contains: "One shea glow polish and One shea glow oil",

@@ -17,46 +17,46 @@ function Ebook () {
                         <img className="image-responsive course-img rounded" src={guide} alt="etoile academy"/>
                     </div>
                     <div className="col-12 col-md-7"> 
-                            <h3 className="text-center text-dark text-md-left pb-4">What you will learn</h3>
+                            <h3 className="text-center text-dark text-md-left pb-4">Table of Content</h3>
                                 <div className="text-title text-center text-md-left">MODULE 1</div>
                                     <p className="lead text-brand text-center text-md-left">Introduction to Skincare</p>
                                     <ul className="ml-0 lead text-muted">
-                                        <li><i className="far fa-check-circle mr-3"></i><span>The skin: types and care.</span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Safety practices before making skincare products. </span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Equipment needed in making skincare products.</span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Measurement conversion.</span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER ONE: The skin and skincare products.</span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER TWO: Before formulation: Things you need to know. </span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER THREE: Formulation development.</span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER FOUR: About natural ingredients.</span></li>
                                     </ul>
                                     <hr/>
                                 <div className="text-title text-center text-md-left">MODULE 2</div>
-                                    <p className="lead text-brand text-center text-md-left">Basic Guide to Making Skincare</p>
+                                    <p className="lead text-brand text-center text-md-left">Guide to Skincare formulation</p>
                                     <ul className="ml-0 lead text-muted">
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Product objective. </span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Ingredients selection and substitution.</span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Recipe development. </span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER FIVE: Formulating procedures and techniques. </span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER SIX: Classification of skincare products.</span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER SEVEN: How to create different product formulas from scratch. </span></li>
+                                        
                                     </ul>
                                     <hr/>
                                 <div className="text-title text-center text-md-left">MODULE 3</div>
-                                    <p className="lead text-brand text-center text-md-left">Product Formulas</p>
+                                    <p className="lead text-brand text-center text-md-left">Product Formulation.</p>
                                         <ul className="ml-0 lead text-muted">
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Emulsified scrub</span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Black soap paste.</span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Face and body oil. </span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Whipped body butter.</span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Facial bar soap</span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Face toner</span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER EIGHT: Cream and lotion formulation.</span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER NINE: Anhydrous products- Oils and others.</span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER TEN: Hydrous products- Toners and serums. </span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER ELEVEN- Soap making.</span></li>
                                     </ul>
                                         <hr/>
-                                <div className="text-title text-center text-md-left">MODULE 4</div>
+                                <div className="text-title text-center text-md-left">MORE</div>
                                 <p className="lead text-brand text-center text-md-left">BONUS</p>
                                         <ul className="ml-0 lead text-muted">
+                                        <li><i className="far fa-check-circle mr-3"></i><span>Recipe collection</span></li>
                                         <li><i className="far fa-check-circle mr-3"></i><span>More on Carrier and Essential oils. </span></li>
-                                        <li><i className="far fa-check-circle mr-3"></i><span>Recipe calculator (downloadable)</span></li>
                                         <li><i className="far fa-check-circle mr-3"></i><span>Recommended ingredients suppliers</span></li>
+                                        <li><i className="far fa-check-circle mr-3"></i><span>Natural ingredients dictionary. </span></li>
                                     </ul>
                                     <hr/>
                         </div>
                         <div className="col-12 col-md-6 mx-auto text-center">
-                            <button className="btn btn-success enroll px-3">Purchase Now</button>
+                            <a href="https://paystack.com/pay/etoilensfguide" target="_blank" className="btn btn-success enroll px-3">Purchase Now</a>
                         </div>
                 </div>
             </div>
