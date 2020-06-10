@@ -77,14 +77,14 @@ export default function CustomizedExpansionPanels() {
         <ExpansionPanelDetails>
           <div className="pt-2">
               <p className="text-left"><i className="fas fa-store-alt text-contrast px-3"></i><Link to="/Shop" className="no-decor-links text-contrast">All our Products</Link></p>
-              <p className="text-left"><i className="fas fa-flask text-contrast px-3"></i><Link to="https://wa.me/+2348142195884" className="no-decor-links text-contrast">Create Your Own</Link>
+              <p className="text-left"><i className="fas fa-flask text-contrast px-3"></i><Link to="https://wa.me/2348142195884" className="no-decor-links text-contrast">Create Your Own</Link>
               </p>
               <p className="text-left"><i className="fas fa-id-card-alt text-contrast px-3"></i><Link to="/collections" className="no-decor-links text-contrast">Explore our Collections</Link></p>
-              <p className="text-left"><i className="fas fa-magic text-contrast px-3"></i><Link to="https://wa.me/+2348142195884" className="no-decor-links text-contrast">Customize your Collection</Link>
+              <p className="text-left"><i className="fas fa-magic text-contrast px-3"></i><Link to="https://wa.me/2348142195884" className="no-decor-links text-contrast">Customize your Collection</Link>
               </p>
-              <p className="text-left"><i className="fas fa-truck-loading text-contrast px-3"></i><Link to="https://wa.me/+2348142195884" className="no-decor-links text-contrast">Bulk Order</Link>
+              <p className="text-left"><i className="fas fa-truck-loading text-contrast px-3"></i><Link to="https://wa.me/2348142195884" className="no-decor-links text-contrast">Bulk Order</Link>
               </p>
-              <p className="text-left"><i className="fas fa-people-carry text-contrast px-3"></i><Link to="https://wa.me/+2348142195884" className="no-decor-links text-contrast">Be a Stockist</Link>
+              <p className="text-left"><i className="fas fa-people-carry text-contrast px-3"></i><Link to="https://wa.me/2348142195884" className="no-decor-links text-contrast">Be a Stockist</Link>
               </p>
           </div>
         </ExpansionPanelDetails>
@@ -99,9 +99,9 @@ export default function CustomizedExpansionPanels() {
               <p className="text-left"><i className="fas fa-flask text-contrast px-3"></i><Link to="/Contact" className="no-decor-links text-contrast">Contact Us</Link>
               </p>
               <p className="text-left"><i className="fas fa-id-card-alt text-contrast px-3"></i><Link to="/Contact" className="no-decor-links text-contrast">FAQs</Link></p>
-              <p className="text-left"><i className="fas fa-credit-card text-contrast px-3"></i><Link to="https://wa.me/+2348142195884" className="no-decor-links text-contrast">About Paystack Payment Option</Link>
+              <p className="text-left"><i className="fas fa-credit-card text-contrast px-3"></i><Link to="https://wa.me/2348142195884" className="no-decor-links text-contrast">About Paystack Payment Option</Link>
               </p>
-              <p className="text-left"><i className="fas fa-truck-loading text-contrast px-3"></i><Link to="https://wa.me/+2348142195884" className="no-decor-links text-contrast">Shipping Information</Link>
+              <p className="text-left"><i className="fas fa-truck-loading text-contrast px-3"></i><Link to="https://wa.me/2348142195884" className="no-decor-links text-contrast">Shipping Information</Link>
               </p>
             </div>
         </ExpansionPanelDetails>

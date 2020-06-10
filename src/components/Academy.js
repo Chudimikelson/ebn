@@ -104,7 +104,7 @@ export default class Academy extends Component {
                   <div className="row text-center text-md-left ">
                     <div className="col-12 col-md-6 d-md-flex bootcamp">
                       <div className="col-md-6 py-3">
-                        <div className="mb-3">Etoile Skincare BootCamp</div>
+                        <div className="mb-3 text-brand lead bold">Etoile Skincare BootCamp</div>
                         <h5 className="text-body">Empower yourself with our one month hands-on training on professional skincare formulation</h5>
                         <p className="text-body">Apply Now to build a career and start a business of your own. Registration closes by July 2, 2020</p>
                       </div>
@@ -115,7 +115,7 @@ export default class Academy extends Component {
                     </div>
                     <div className="col-12 col-md-6 d-md-flex mini-course">
                       <div className="col-12 col-md-6 py-3">
-                        <div className="mb-3">Audit our Courses</div>
+                        <div className="mb-3 text-brand tenali font-md">Audit our Courses</div>
                         <h4 className="text-body">Take our mini course on making skincare products</h4>
                         <p className="text-body">Apply Now to learn how to make 6 simple yet effective skincare products for you and your family</p>
                       </div>

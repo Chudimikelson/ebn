@@ -17,10 +17,10 @@ export default class Bestsellers extends Component {
               ><Link to="/bestseller">
                  <img src={img} alt="Etoile Beauty Nig organic natural black soap body lotion face cream skin glowing lightening brightening serum oil mask"/></Link>
                   
-                  <div className="d-flex justify-content-between p-2">
-                    <h3 className="pr-3 mb-0 tenali">{title}</h3>
-                    <h4 className="my-auto">
-                      <span>&#8358;</span>{price}</h4>
+                  <div className="mt-3 row justify-content-between text-center">
+                  <div className="col-12"><h3 className="mb-0 tenali">{title}</h3></div>
+                  <div className="col-12"><h4 className="my-auto">
+                    <span>&#8358;</span>{price}</h4></div>
                   </div>
 
                   <div className="py-2">

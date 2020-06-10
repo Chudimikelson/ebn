@@ -45,7 +45,7 @@ function Ebook () {
                                         <li><i className="far fa-check-circle mr-3"></i><span>CHAPTER ELEVEN- Soap making.</span></li>
                                     </ul>
                                         <hr/>
-                                <div className="text-title text-center text-md-left">MORE</div>
+                                <div className="text-title text-center text-md-left"></div>
                                 <p className="lead text-brand text-center text-md-left">BONUS</p>
                                         <ul className="ml-0 lead text-muted">
                                         <li><i className="far fa-check-circle mr-3"></i><span>Recipe collection</span></li>

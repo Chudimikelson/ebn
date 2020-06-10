@@ -66,7 +66,7 @@ export default class Checkout extends Component {
                       <div className="col-md-10">
                         <h3 className="text-contrast regular">Your Cart</h3>
                         <h2 className="h1 text-contrast"><span className="mr-1">&#8358;</span>{cartTotal}<small>.00</small></h2>
-                        <p className="mb-0 text-light">Please fill your Shipping Details and procedd to Payment</p>
+                        <p className="mb-0 text-light">Please fill your Shipping Details and proceed to Payment</p>
                       </div>
                     </div>
                 <div className="container py-0">
