@@ -19,8 +19,8 @@ export default class Products extends Component {
                   <img src={img} alt="Etoile Beauty Nig organic natural black soap body lotion face cream skin glowing lightening brightening serum oil mask" className="product-img" />
                 </Link>
                 
-                <div className="mt-3 row justify-content-between text-center tenali">
-                  <div className="col-12"><h3 className="mb-0">{title}</h3></div>
+                <div className="mt-3 row justify-content-between text-center">
+                  <div className="col-12"><h3 className="mb-0 tenali">{title}</h3></div>
                   <div className="col-12"><h4 className="my-auto">
                     <span>&#8358;</span>{price}</h4></div>
                   
