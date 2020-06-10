@@ -288,11 +288,12 @@ class ProductProvider extends Component {
     let method = this.state.method;
     let location = this.state.location;
     let sfee = this.state.shipping;
+    let extra = 0;
     let subTotal = 0;
     let disc = this.state.discount;
     this.state.cart.map( item => (subTotal += item.total));
     if (method !== "regular" && location !== "Abuja") {
-      sfee += 2000;
+      sfee = 4500;
     } 
     if (subTotal >= 15000) {
       disc = subTotal * 0.1;

@@ -22,10 +22,10 @@ export default function Contact() {
     <Sbc>
         <section className="container-fluid cert-header paddit">
             <div className="container pt-md-7 pb-3 px-md-5">
-            <h1 className="text-contrast bold display-lg-4 mb-0">Etoile Beauty Nigeria</h1>
+            <h1 className="text-contrast bold display-lg-4 font-md mb-0">Etoile Beauty Nigeria</h1>
             <h3 className="mt-0 pt-0 font-l text-light tenali">[ pronounced : ey-twal. (French) ]</h3>
             <h4 className="text-light font-weight-light mb-0 pb-1 pt-3">About our Brand</h4>
-            <div className="lead text-light text-justify tenali font-md">
+            <div className="lead text-light tenali font-md">
             <p className="mb-0"> Etoile Beauty Nigeria is a 100% natural skincare brand, born out of passion for safe and effective skincare.</p> 
             <p className="mb-0">We are committed to dedicating our skills and expertise in providing safe, natural and plant based skincare for one purpose only "RADIANT AND HEALTHY SKIN".</p> 
             <p className="mb-0">All our products are made in small batches and we use mostly fairtrade ingredients from here in Africa and sometimes from Asia and Europe where needed.</p> 
@@ -48,7 +48,7 @@ export default function Contact() {
                 
                 <div className="col-md-8">
                             <nav className="d-flex  justify-content-around">
-                                <a className="btn btn-light" href="https://wa.me/+2348142195884" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
+                                <a className="btn btn-light" href="https://wa.me/2348142195884" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
                                 </a>
                                 <a className="btn btn-light" href="https://facebook.com/etoileskincareng/posts" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i>
                                 </a>
