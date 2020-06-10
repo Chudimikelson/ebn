@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import advanced from '../photos/advanced.png';
 import nsf from '../photos/nsf.jpg';
 import making from '../photos/making.jpg';
 import guide from '../photos/guide.jpg';
@@ -9,6 +8,7 @@ import cover from '../photos/minicourse.jpg';
 import minicourse from '../photos/minicourse2.jpg';
 import FaQ from './FaQ';
 import { Link } from 'react-router-dom';
+import Iframe from 'react-iframe';
 
 export default class Academy extends Component {
   state = {
@@ -27,10 +27,10 @@ export default class Academy extends Component {
     <section className="paddit">      
             <div className="container-fluid d-flex justify-content-between cert-header mb-4">
                 <div className="col-7 col-md-8 ml-auto my-auto">
-                  <div className="text-center text-nowrap">
-                    <p className="text-gold text-light mb-0 pb-1">The Good Skin Fairy</p>
-                    <h2 className="text-contrast bold display-lg-2">Etoile Beauty</h2>
-                    <h3 className=" text-light text-gold font-weight-bold">Skincare Training Academy</h3>
+                  <div className="text-center  text-nowrap">
+                    <p className="text-gold text-light mb-0 pb-1 tenali">The Good Skin Fairy</p>
+                    <h2 className="text-contrast caveat bold display-lg-2">Etoile Beauty</h2>
+                    <h3 className=" text-light text-gold tenali font-weight-bold">Skincare Training Academy</h3>
                   </div>
                 </div>
                 <div className="col-5 col-md-4">
@@ -44,12 +44,13 @@ export default class Academy extends Component {
           <div class="container bring-to-front pt-0">
             <div className="row gap-y">
               <div className="col-12">
-                <div class=" cert-header p-3 rounded h-100">
-                  <h5 className="bold text-contrast">Become a Professional Skincare Formulator</h5>
+                <div class="cert-header p-3 rounded h-100">
+                  <h5 className="bold tenali font-md bbn text-contrast">Professional Skincare Formulation Training</h5>
+                  <h5 className="bold tenali d-md-none text-contrast">Professional Skincare Formulation Training</h5>
                   <div className="row mx-auto" id="courses">
                     <div className="col-12 col-md-4">
                       <Link className="no-decor-links" to="/Natural-Skincare-Formulation">
-                      <div className="card shadow-hover">
+                      <div className="card shadow-hover text-brand">
                         <div className="card-body">
                           <div className="card-title">Certificate in Natural Skincare Formulation</div>
                           <img className="image-responsive course-img" src={nsf} alt="etoile academy"/>
@@ -62,7 +63,7 @@ export default class Academy extends Component {
                     </div>
                     <div className="col-12 col-md-4">
                       <Link className="no-decor-links" to="/Mini-Course">
-                      <div className="card shadow-hover">
+                      <div className="card shadow-hover text-brand">
                         <div className="card-body">
                           <div className="card-title">Making Natural Skincare Products</div>
                           <img className="image-responsive course-img" src={making} alt="etoile academy"/>
@@ -75,7 +76,7 @@ export default class Academy extends Component {
                     </div>
           <div className="col-12 col-md-4">
           <Link className="no-decor-links" to="/NSF-Ebook">
-            <div className="card shadow-hover">
+            <div className="card shadow-hover text-brand">
             <div className="card-body">
               <div className="card-title">Guide to Natural Skincare Formulation </div>
               <img className="image-responsive course-img" src={guide} alt="etoile academy"/>
@@ -104,8 +105,8 @@ export default class Academy extends Component {
                     <div className="col-12 col-md-6 d-md-flex bootcamp">
                       <div className="col-md-6 py-3">
                         <div className="mb-3">Etoile Skincare BootCamp</div>
-                        <h5>Empower yourself with our one month hands-on training on professional skincare formulation</h5>
-                        <p>Apply Now to build a career and start a business of your own. Registration closes by July 2, 2020</p>
+                        <h5 className="text-body">Empower yourself with our one month hands-on training on professional skincare formulation</h5>
+                        <p className="text-body">Apply Now to build a career and start a business of your own. Registration closes by July 2, 2020</p>
                       </div>
                       <div className="col-12 col-md-6 my-auto">
                         <img className="image-responsive course-img" src={cover} alt="etoile academy"/>
@@ -115,8 +116,8 @@ export default class Academy extends Component {
                     <div className="col-12 col-md-6 d-md-flex mini-course">
                       <div className="col-12 col-md-6 py-3">
                         <div className="mb-3">Audit our Courses</div>
-                        <h4>Take our mini course on making skincare products</h4>
-                        <p>Apply Now to learn how to make 6 simple yet effective skincare products for you and your family</p>
+                        <h4 className="text-body">Take our mini course on making skincare products</h4>
+                        <p className="text-body">Apply Now to learn how to make 6 simple yet effective skincare products for you and your family</p>
                       </div>
                       <div className="col-12 col-md-6 my-auto">
                         <img src={minicourse} alt="etoile academy" className="image-responsive course-img"/>
@@ -138,16 +139,17 @@ export default class Academy extends Component {
                   <li><i className="fas fa-arrow-right mr-3"></i>How to formulate skin care products from scratch</li>
                   <li><i className="fas fa-arrow-right mr-3"></i>Identify non-toxic and eco-friendly natural ingredients</li>
                   <li><i className="fas fa-arrow-right mr-3"></i>Launch a successful skincare brand</li>
-                  <li> ... plus many more! </li>
                 </ul>
-                <div  class="shadow rounded text-center overlay overlay-dark alpha-8 text-contrast image-background cover" style={{"background-image": "url(https://picsum.photos/350/200/?random&gravity=south)"}}><div class="content py-2"><div class="section-heading mb-1">
-                            <h4 class="text-contrast">What our graduates say</h4>
-                        </div>
-                        <p class="handwritten highlight font-md">Play the video</p>
-                  <iframe className="mx-auto" width="auto"   src="https://www.youtube.com/embed/qJWABTamK6c?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    
-                        <a href="https://www.youtube.com/embed/qJWABTamK6c" class="modal-popup mfp-iframe btn-circle btn-primary" data-effect="mfp-fade"><i className="play ml-1 fas fa-play"></i></a>
-                    </iframe></div>
+                <div  className="text-center rounded cert-header">
+                  <div class="py-2">
+                    <p class="handwritten highlight font-md text-contrast">... plus many more!</p>
+                  </div>
+                  <Iframe url="https://www.youtube.com/embed/-4znPsQWMSs?rel=0"
+                    width="100%"
+                    height="315px" 
+                    className="rounded"
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen/>
                 </div>
                 
         

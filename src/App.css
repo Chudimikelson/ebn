@@ -11,21 +11,20 @@
 }
 
 body{
-  font-family: "Oswald", sans-serif !important;
+  font-family: 'Sriracha' !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
 }
 .bg-brand {
   background: palevioletred;
 }
-.text-title {
-  font-family: "Oswald", sans-serif !important;
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
+.caveat {
+  font-family: "Caveat", cursive !important;
 }
-.text-blue {
-  color: var(--mainBlue);
+.tenali {
+  font-family: "Tenali Ramakrishna", cursive;
 }
+
 .text-bright {
   color: var(--lightBlue);
 }
@@ -43,7 +42,7 @@ body{
 }
 
 .bbindx-a {
-  background: palevioletred !important;
+  background: #f4057c !important;
   border-top-left-radius: 0.9rem !important;
   border-top-right-radius: 0 !important;
   border-bottom-left-radius: 0.9rem !important;
@@ -52,7 +51,7 @@ body{
   height: 2rem;  
 }
 .bbindx-c {
-  background: palevioletred  !important;
+  background: #f4057c  !important;
   border-top-right-radius: 0.9rem !important;
   border-top-left-radius: 0 !important;
   border-bottom-right-radius: 0.9rem !important;
@@ -113,7 +112,7 @@ body{
   width: 70%;
   font-size: 0.8rem;
   border-radius: 1.5rem;
-  background: #c74d89e3;
+  background: #f551af;;
 }
 .btc {
   font-size: 0.8rem;
@@ -194,7 +193,7 @@ button:focus {
   
 }
 .nav-item a {
-  color: palevioletred !important;
+  color: #f4057c !important;
 }
 /* .bbn {
   background-color: palevioletred !important;
@@ -283,7 +282,7 @@ button:focus {
 
 
 .fab, .fas, .text-brand {
-   color: palevioletred;
+   color: #f4057c;
 }
 
 #menuBar {
@@ -334,6 +333,7 @@ button:focus {
 
 .horizontalLine {
   width: 50px;
+  border-top: 1px solid rgb(205, 96, 150);
 }
 #paystack-img {
   height: 4rem;
@@ -346,7 +346,7 @@ button:focus {
 }
 .no-decor-links a{
   text-decoration: none !important;
-  color: palevioletred;
+  color: #f4057c ;
 }
 .no-decor-links a:hover {
   color: goldenrod !important;
@@ -378,6 +378,11 @@ button:focus {
   margin-right: auto !important;
   max-height: 400px !important;
 }
+
+.modal-logo  {
+  max-width: 25% !important;
+}
+
 @media screen and (max-width:769px) {
   .finess {
     width: 50%;
@@ -391,6 +396,7 @@ button:focus {
   #cover2, #cover1 {
     max-height: 9rem;
     width: auto;
+    border-radius: none;
   } 
   .card-img-top {
     height:21rem;
@@ -421,9 +427,19 @@ button:focus {
     flex-wrap: nowrap;
     overflow-y: scroll; 
   }
+  .cover {
+    
+    border: solid 2px gold;
+    width: auto; 
+  }
 }
 
 @media screen and (min-width:767px) {
+  .cover {
+    border-radius: 50%;
+    border: solid .4rem gold;
+    width: auto;
+  }
   .myaccordion .myaccordion-heading {
     display: inline-block;
     white-space: nowrap;

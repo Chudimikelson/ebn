@@ -35,12 +35,12 @@ export default function SimpleExpansionPanel() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className="text-contrast bold">Will I get a certificate at the end of this course?</Typography>
+          <p className="text-contrast lead tenali bold">Will I get a certificate at the end of this course?</p>
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
-          <Typography>
+          <p className="tenali lead">
             Yes you will receive a certificate of profiency when you have successfully completed all modules and practicals.
-          </Typography>
+          </p>
         </ExpansionPanelDetails>
       </ExpansionPanel>
       <ExpansionPanel>
@@ -102,8 +102,22 @@ export default function SimpleExpansionPanel() {
       <ExpansionPanel>
         <ExpansionPanelSummary
           
-          aria-controls="panel6a-content"
+          aria-controls="panel5a-content"
           id="panel6a-header"
+        >
+          <Typography className="text-contrast bold">Do you teach skin care online or in person?</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography>
+            Yes, we have courses for both beginners and intermediate level. Our course are offered online and in person. If you are interested in taking a one on one course with us, please contact us on WhatsApp.
+          </Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+      <ExpansionPanel>
+        <ExpansionPanelSummary
+
+          aria-controls="panel6a-content"
+          id="panel7a-header"
         >
           <Typography className="text-contrast bold">Are fees refundable?</Typography>
         </ExpansionPanelSummary>

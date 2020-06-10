@@ -19,12 +19,11 @@ export default class Products extends Component {
                   <img src={img} alt="Etoile Beauty Nig organic natural black soap body lotion face cream skin glowing lightening brightening serum oil mask" className="product-img" />
                 </Link>
                 
-                <div className="card-footer d-flex justify-content-between">
-                  <h1 className="small-text align-self-center mb-0">{title}</h1>
-                  <h3 className="small-text text-blue  mb-0">
-                    <span className="mr-1 align-self-center">&#8358;</span>
-                    {price}
-                  </h3>
+                <div className="mt-3 row justify-content-between text-center tenali">
+                  <div className="col-12"><h3 className="mb-0">{title}</h3></div>
+                  <div className="col-12"><h4 className="my-auto">
+                    <span>&#8358;</span>{price}</h4></div>
+                  
                 </div>
                 
                 <button
@@ -42,7 +41,7 @@ export default class Products extends Component {
                     <p className= "py-2 nic mx-auto text-capitalize mb-0">Add to Cart</p>
                   )}
                 </button>
-                <hr className="horizontalLine"/>
+                <hr className="horizontalLine mx-auto"/>
               </div>
             )}
           </ProductConsumer>
@@ -66,7 +65,7 @@ Products.propTypes = {
 const ProductWrapper = styled.div`
   .product-img {
     width: 100%;
-    height: 400px;
+    height: 25rem;
   }
   .card {
     border-color: transparent;
@@ -100,7 +99,7 @@ const ProductWrapper = styled.div`
     width: 10rem; 
     font-size: 0.8rem;
     border-radius: 2rem;
-    background: rgba(250,248,250, 0.4);
+    background: #f551af;
   }
   .btn:hover {
     border: solid 0.5px green;

@@ -8,29 +8,29 @@ export default class Footer extends Component {
     return (
       
         <div className="footer pb-1">
-            <div class="container pt-5 pb-2">
+            <div className="container pt-5 pb-2">
               <div className="d-md-none"><Accordion className="col-12"/></div>
                     <div className="bbn">
-                    <div className="row">
+                    <div className="row caveat">
                         <div className="col-md-2 shadow-box py-1 shadow-hover"><Link className="no-decor-links" to="/Academy">
-                            <div class="bg-light p-3 icon-xl shadow-box rounded-circle center-flex mx-auto"><i className="fas fa-chalkboard-teacher" /></div>
+                            <div className="bg-light p-3 icon-xl shadow-box rounded-circle center-flex mx-auto"><i className="fas fa-chalkboard-teacher" /></div>
                             <h6 className="mt-3 mb-0 text-center text-light bold">Etoile Academy</h6></Link>
                         </div>
                         <div className="col-md-2 shadow-box py-1 shadow-hover"><Link className="no-decor-links" to="/shop">
                             <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-store"/></div>
                             <h6 className="mt-3 mb-0 text-center text-light bold">Shop Products</h6></Link>
                         </div>
-                        <div className="col-md-2 shadow-box py-1 shadow-hover">
+                        <div className="col-md-2 shadow-box py-1 shadow-hover"><a className="no-decor-links" href="https://wa.me/2348142195884" target="_blank" rel="noopener noreferrer">
                             <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i  className="fas fa-shipping-fast"/></div>
-                            <h6 className="mt-3 mb-0 text-center text-light bold">Express Shipping</h6>
+                            <h6 className="mt-3 mb-0 text-center text-light bold">Bulk Order</h6></a>
                         </div>
-                        <div className="col-md-2 shadow-box py-1 shadow-hover">
-                            <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-route"/></div>
-                            <h6 className="mt-3 mb-0 text-center text-light bold">Order Tracking</h6>
+                        <div className="col-md-2 shadow-box py-1 shadow-hover"><a className="no-decor-links" href="https://wa.me/2348142195884" target="_blank" rel="noopener noreferrer">
+                            <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-flask"/></div>
+                            <h6 className="mt-3 mb-0 text-center text-light bold">Custom Order</h6></a>
                         </div>
-                        <div className="col-md-2 shadow-box py-1 shadow-hover">
-                            <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-credit-card" /></div>
-                            <h6 className="mt-3 mb-0 text-center text-light bold">Secure Checkout</h6>
+                        <div className="col-md-2 shadow-box py-1 shadow-hover"><a className="no-decor-links" href="https://wa.me/2348142195884" target="_blank" rel="noopener noreferrer">
+                            <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-people-carry" /></div>
+                            <h6 className="mt-3 mb-0 text-center text-light bold">Be a Stockist</h6></a>
                         </div>
                         <div className="col-md-2 shadow-box py-1 shadow-hover"><Link className="no-decor-links" to="/Contact">
                             <div className="bg-light p-3 icon-xl rounded-circle center-flex mx-auto"><i className="fas fa-headset" /></div>
@@ -44,22 +44,23 @@ export default class Footer extends Component {
                             <nav className="nav flex-wrap">
                                 <p className="nav-item py-1 mr-3" >FAQs</p>
                                 <p className="nav-item py-1 mr-3" >Privacy</p>
-                                <p class="nav-item py-1 mr-3" >Terms of use</p>
+                                <p className="nav-item py-1 mr-3" >Terms of use</p>
                                 <p className="nav-item py-1" >Return Policy</p>
                             </nav>
                         </div>
                         
                         <div className="col-12 col-md-3">
                             <nav className="justify-content-between ml-md-auto">
-                                <a className="btn btn-sm btn-light mr-2" href="https://wa.me/+2348142195884"><i className="fab fa-whatsapp"></i>
+                                <a className="btn btn-sm btn-light mr-2" href="https://wa.me/2348142195884" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp"></i>
                                 </a>
-                                <a className="btn btn-sm btn-light mr-2" href="https://facebook.com/pg/Etoile-Skincare-1051120401713986/posts"><i className="fab fa-facebook"></i>
+                                <a className="btn btn-sm btn-light mr-2" href="https://facebook.com/pg/Etoile-Skincare-1051120401713986/posts" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i>
                                 </a>
-                                <a className="btn btn-sm btn-light mr-2" href="https://instagram.com/etoile_skincare"><i className="fab fa-instagram"></i>
+                                <a className="btn btn-sm btn-light mr-2" href="https://instagram.com/etoile_skincare" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i>
                                 </a>
-                                <a className="btn btn-sm btn-light mr-2" href="#"><i className="fas fa-phone"></i>
+                                <a className="btn btn-sm btn-light mr-2" href="tel:+2348142195884" target="_blank"
+                                rel="noopener noreferrer"><i className="fas fa-phone"></i>
                                 </a>
-                                <a className="btn btn-sm btn-light" href="#"><i className="fas fa-envelope"></i>
+                                <a className="btn btn-sm btn-light" href="mailto:etoilebeautynig@gmail.com" target="_blank" rel="noopener noreferrer"><i className="fas fa-envelope"></i>
                                 </a>
                             </nav>Connect on Social Media
                         </div>

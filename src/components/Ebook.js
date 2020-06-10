@@ -56,7 +56,7 @@ function Ebook () {
                                     <hr/>
                         </div>
                         <div className="col-12 col-md-6 mx-auto text-center">
-                            <a href="https://paystack.com/pay/etoilensfguide" target="_blank" className="btn btn-success enroll px-3">Purchase Now</a>
+                            <a href="https://paystack.com/pay/etoilensfguide" target="_blank" rel="noopener noreferrer" className="btn btn-success enroll px-3">Purchase Now</a>
                         </div>
                 </div>
             </div>

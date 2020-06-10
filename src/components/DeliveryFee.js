@@ -7,7 +7,7 @@ export default class DeliveryFee extends Component {
 		this.state = {
 			residence: "Abuja",
 			method: 'regular',
-			fee: "1000"
+			fee: 0
 		};
 	};
 
@@ -36,16 +36,35 @@ export default class DeliveryFee extends Component {
 		var result = "";
 	
 		var lookup = {
-			"abuja": 1000,
-			"lagos": 1500,
-			"ibadan": 1500,
-			"portharcourt": 1500,
-			"benin": 1500,
-			"owerri": 1500,
-			"asaba": 2000,
-			"minna": 1500,
-			"jos": 2000,
-			"kaduna": 1500,
+			"Abuja": 1000,
+			"abia": 2500,
+			"adamawa": 2500,
+			"uyo": 2500,
+			"onitsha": 2500,
+			"bayelsa": 2500,
+			"makurdi": 2500,
+			"calabar": 2500,
+			"asaba": 2500,
+			"warri": 2500,
+			"abakiliki": 2500,
+			"benin": 2200,
+			"enugu": 2200,
+			"owerri": 2200,
+			"kaduna": 1800,
+			"kano": 2500,
+			"lokoja": 1800,
+			"ilorin": 2500,
+			"Lagos": 2500,
+			"nassarawa": 1800,
+			"minna": 2000,
+			"abeokuta": 2500,
+			"oshogbo": 2500,
+			"ile-ife": 2500,
+			"ibadan": 2500,
+			"akure": 2500,
+			"jos": 2500,
+			"portharcourt": 2500,
+			"ekiti": 2500
 		};
 		result = lookup[location];
 		return result;
@@ -54,11 +73,6 @@ export default class DeliveryFee extends Component {
 	getDeliveryMethod=()=>{
 		let residence = this.state.residence;
 		let deliveryfee = this.deliverFee(residence);
-		let method = this.state.method;
-
-		if (method !== "regular" && residence !== "abuja") {
-			deliveryfee += 2000;
-		};
 		this.setState(()=>{
 			return {fee: deliveryfee};
 		});

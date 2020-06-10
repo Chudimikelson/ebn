@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
 import advanced from '../photos/Cover.jpg';
 import FaQ from './FaQ';
-import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import ExpansionPanel from '@material-ui/core/ExpansionPanel';
 import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
@@ -25,7 +23,7 @@ export default function CertCourse () {
                         <img id="instructor-img" src={banner} alt=""/> Esther C. Ojogwu
                         <span className="mr text-light lead"> - Instructor</span>
                     </div>
-                    <a href="https://paystack.com/pay/etoilensf" target="_blank" className="btn btn-primary mt-2">Enroll Now</a>
+                    <a href="https://paystack.com/pay/etoilensf" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-2">Enroll Now</a>
                   </div>
                   
               </section>
@@ -358,7 +356,7 @@ export default function CertCourse () {
                         <li><i className="fas fa-arrow-right mr-3 py-3"></i>Student mentorship and support</li>
                         <li><i className="fas fa-arrow-right mr-3 py-3"></i>Certificate of Proficiency</li>
                         </ul>
-                        <div className="text-center"><a href="https://paystack.com/pay/etoilensf" target="_blank" className="btn btn-success enroll px-3">Enroll Now</a></div>
+                        <div className="text-center"><a href="https://paystack.com/pay/etoilensf" target="_blank" rel="noopener noreferrer" className="btn btn-success enroll px-3">Enroll Now</a></div>
                     </div>
                     <div className="col-md-5 my-auto">
                         <img src={advanced} alt="" id="cert-img"/>

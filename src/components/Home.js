@@ -9,7 +9,7 @@ export default function Home() {
       <React.Fragment>
           <Banner />
           <Bss/>
-
+          <Features/>
           <ShopByCategories id="shopbycategories"/>         
           
       </React.Fragment> 

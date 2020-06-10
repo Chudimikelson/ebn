@@ -1,22 +1,23 @@
 import React from "react";
 import styled from 'styled-components';
-import banner from '../photos/IMG-1.jpg';
+import banner from '../photos/newbanner.jpg';
 import {Link} from 'react-router-dom';
 
 const Banner = () => {
   return (
     <Bannerstyle>
     <section className="paddit">
-            <div className="container-fluid d-flex justify-content-between" style={{"background-color": "rgb(0, 145, 175)"}}>
-                <div className="col-5 col-md-5 order-2"><img className="img-responsive" alt="Etoile Beauty Nig" src={banner} /></div>
-                <div className="col-7 col-md-7 ml-auto my-auto">
-                  <div className="text-center text-nowrap">
-                    <h4 className="text-light font-weight-light mb-0 pb-1">The Good Skin Fairy</h4>
-                    <h1 className="text-contrast bold display-lg-2">Etoile Beauty </h1>
-                    <p className="lead text-light pb-3 bbn">Simple, Natural and Plant Based Skincare</p>
-                    <Link to="/shop"><button className="mybtn btn btn-primary mt-3 text-light bold">Shop Now</button></Link>
+            <div className="container-fluid cert-header">
+              <div className="row">
+                <div className="col-12 col-md-5 order-2 my-auto"><img className="img-responsive p-1 p-md-3 cover" alt="Etoile Beauty Nig" src={banner} /></div>
+                <div className="col-12 col-md-7 my-auto">
+                  <div className="text-center text-nowrap pt-md-4">
+                    <h4 className="text-gold text-light tenali bold mb-0 pb-1">The Good Skin Fairy</h4>
+                    <h2 className="text-contrast bold display-lg-2 caveat">Etoile Beauty </h2>
+                    <p className="text-light text-gold ">Simple, Natural and Plant Based Skincare</p>
+                    <Link to="/shop" className="bbn"><button className="mybtn btn btn-primary text-light bold caveat d-none">Shop Now</button></Link>
                   </div>
-                </div>
+                </div></div>
             </div>
     </section>
     </Bannerstyle>
@@ -24,17 +25,9 @@ const Banner = () => {
 }
 
 const Bannerstyle = styled.div `
-
-img {
-  min-height: 200px;
-  width: auto;
-  border-radius: 50%;
+.cert-header {
+  background-image: linear-gradient(45deg, #fb31bd, #fc9e2196);
 }
-.btn {
-  background-image: linear-gradient(45deg, #fc9e2196, #fb31bd);
-  border: none;
-}
-
 `
 
 export default Banner;

@@ -1,34 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import banner from '../photos/IMG-1.jpg';
-import {Link} from 'react-router-dom';
-import advanced from '../photos/advanced.png';
 import FaQ from './FaQ';
-import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
-import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
-import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
 import AboutAcademy from './AboutAcademy';
 import Breadcrumb from './Breadcrumb';
 import Review from './ReviewsCarousel';
 
-const useStyles = makeStyles((theme) => ({
-    expand: {
-      transform: 'rotate(0deg)',
-      marginRight: 'auto',
-      transition: theme.transitions.create('transform', {
-        duration: theme.transitions.duration.shortest,
-      }),
-    },
-    expandOpen: {
-      transform: 'rotate(180deg)',
-    },
-  }));
-
 export default function SoapCourse () {
-    const classes = useStyles();
-    const [expanded, setExpanded] = React.useState(false);
     const current = "Mini Course";
     return (
         <Soapstyle>
@@ -41,7 +19,7 @@ export default function SoapCourse () {
                     <img id="instructor-img" src={banner} alt=""/> Esther C. Ojogwu
                     <span className="mr text-light lead"> - Instructor</span>
                 </div>
-                <a href="https://paystack.com/pay/etoileminicourse" target="_blank" className="btn btn-primary mt-2">Enroll Now</a>
+                <a href="https://paystack.com/pay/etoileminicourse" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-2">Enroll Now</a>
                 </div>
                 
             </section>
@@ -127,7 +105,7 @@ export default function SoapCourse () {
                                     <li className="py-3 text-dark"><i className="fas fa-user-graduate"/><span className="ml-3">Beginner level</span></li>
                                     </ul>
                                 </div>
-                                    <div className="text-center"><a href="https://paystack.com/pay/etoileminicourse" target="_blank" className="btn btn-success enroll px-3">Enroll Now</a></div>
+                                    <div className="text-center"><a href="https://paystack.com/pay/etoileminicourse" target="_blank" rel="noopener noreferrer" className="btn btn-success enroll px-3">Enroll Now</a></div>
                                 </div>
                                 <div className="col-md-6">
                                     {/** <p>What our past students had to say</p> */}

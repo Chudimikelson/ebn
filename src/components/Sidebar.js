@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import {Modal, ModalHeader, ModalBody} from 'reactstrap';
 import styled from 'styled-components';
-import brand from '../logo.jpg';
+import brand from '../ebn-logo.jpg';
 
 export default class Sidebar extends Component {
   constructor (props) {
@@ -27,21 +27,23 @@ export default class Sidebar extends Component {
         </button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>
-          <div className="col-6 mx-auto"><img className="img-responsive" alt="Etoile Beauty Nig" src={brand} /></div>
+            <div  className="row align-items-center justify-content-around mb-0 pb-0">
+            <img className="img-responsive modal-logo" alt="Etoile Beauty Nig" src={brand} />
+            <span className="lead text-brand bold">Good Skin Fairy</span>
+            </div>
           </ModalHeader>
           <ModalBody>
           <NavWrapper>
-          <div className="flex-container">
-        <ul className="d-flex menu pr-2 navbar-nav mx-auto text-capitalize">
-       
-          <li className="nav-item">
-          <Link to="/shop" onClick={this.toggle} className="nav-link"><i class="fas fa-hand-holding-usd"></i><span className="ml-3">Shop Products</span></Link>
+          <div className="container">
+        <ul className="d-flex menu navbar-nav text-capitalize">
+          <li className="nav-item no-decor-links">
+          <Link to="/Academy" onClick={this.toggle}className="nav-link text-center"><i class="mr-3 fas fa-chalkboard-teacher"></i><span className="">Skincare Training</span></Link>
           </li>
-          <li className="nav-item">
-          <Link to="/Academy" onClick={this.toggle}className="nav-link"><i class="fas fa-chalkboard-teacher"></i><span className="ml-3">Skincare Training</span></Link>
+          <li className="nav-item no-decor-links">
+          <Link to="/shop" onClick={this.toggle} className="nav-link text-center"><i class="mr-3 fas fa-hand-holding-usd"></i><span className="">Shop Products</span></Link>
           </li>
-          <li className="nav-item">
-          <Link to="/Diy" onClick={this.toggle}className="nav-link"><i class="fas fa-envelope"></i><span className="ml-3">Contact us</span></Link>
+          <li className="nav-item no-decor-links">
+          <Link to="/Contact" onClick={this.toggle}className="nav-link text-center"><i class="mr-3 fas fa-envelope"></i><span className="">Contact us</span></Link>
           </li>
         </ul>
         </div>
@@ -57,13 +59,6 @@ export default class Sidebar extends Component {
 const NavWrapper = styled.nav`
 background: #fff;
 .nav-link {
-    color: palevioletred!important;
-    font-size: 1rem;
-    text-transform: capitalize;
+    font-size: 1.2rem;
 }
-.mylogo  {
-  height: 2rem;
-  width: 9rem;
-}
-
 `

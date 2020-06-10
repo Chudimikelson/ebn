@@ -28,7 +28,8 @@ class ProductProvider extends Component {
         cartTotal:0,
         location: "Abuja",
 			  method: 'regular',
-        shipping:1000
+        shipping: 1200,
+        discount: 0,
     };
     componentDidMount(){
       this.setProducts();
@@ -288,15 +289,22 @@ class ProductProvider extends Component {
     let location = this.state.location;
     let sfee = this.state.shipping;
     let subTotal = 0;
+    let disc = this.state.discount;
     this.state.cart.map( item => (subTotal += item.total));
     if (method !== "regular" && location !== "Abuja") {
       sfee += 2000;
+    } 
+    if (subTotal >= 15000) {
+      disc = subTotal * 0.1;
+    } else {
+      disc = 0;
     }
-    const total = subTotal + sfee;
+    const total = subTotal + sfee - disc;
     this.setState(() => {
       return {
         cartSubTotal:subTotal,
         shipping:sfee,
+        discount:disc,
         cartTotal:total
       }
     });

@@ -50,7 +50,7 @@ export default class Checkout extends Component {
       <ProductConsumer>
           {value =>{
             
-            const {cart,cartTotal,shipping, cartSubTotal,clearCart} = value;
+            const {cart,cartTotal,shipping, cartSubTotal,clearCart, discount} = value;
             const cartItems = cart.map(cartItem => cartItem.count + " " + cartItem.title);
             const maill = this.state.emaill;
             const phone = this.state.phone;
@@ -92,7 +92,7 @@ export default class Checkout extends Component {
                   <CartTotals value={value} history={this.props.history} />
                   {/** customer details  */}
                   <div class="card">
-                                        <div class="card-header"><a href="#" class="card-title btn bold" data-toggle="collapse" data-target="#clp-promo"><i class="fas fa-angle-down angle"></i>Customer Information</a></div>
+                                        <div class="card-header"><button className="card-title btn bold" data-toggle="collapse" data-target="#clp-promo"><i class="fas fa-angle-down angle"></i>Customer Information</button></div>
                                         <div id="clp-promo" class="collapse show" data-parent="#cart-options">
                                             <div class="card-body">
                                                 <form class="form" onSubmit={this.getEmail} onBlur={this.handleHero}>
@@ -114,14 +114,18 @@ export default class Checkout extends Component {
                                 {/** TOTAL */}
                                 <hr class="my-4"/>
                                 <div className="d-flex flex-wrap text-capitalize justify-content-between">
-            <p className="text-capitalize bold text-darker">Shipping fee: </p>
-            <p className="bold price ml-sm-auto"><span className="mr-1">&#8358;</span>{shipping} </p>
-          </div>
-                                <div className="d-flex flex-wrap text-capitalize justify-content-between">
             <p className="bold text-darker text-capitalize">sub total</p>
             <p className="bold price ml-sm-auto"><span className="mr-1">&#8358;</span> {cartSubTotal} </p>
           </div>
-                                <div class="d-flex flex-wrap justify-content-between">
+          <div className="d-flex flex-wrap text-capitalize text-danger justify-content-between">
+            <p className="bold text-capitalize">10% Discount</p>
+            <p className="bold price ml-sm-auto"><span className="mr-1">- &#8358;</span>{discount} </p>
+          </div>
+          <div className="d-flex flex-wrap text-capitalize justify-content-between">
+            <p className="text-capitalize bold text-darker">Shipping fee: </p>
+            <p className="bold price ml-sm-auto"><span className="mr-1">&#8358;</span>{shipping} </p>
+          </div>
+          <div class="d-flex flex-wrap justify-content-between">
                                     <p class="bold text-darker text-uppercase">Total</p>
                                     <p class="h5 bold price ml-sm-auto"><span>&#8358;</span> {cartTotal} </p>
                                 </div>{/** Proceed  */}
