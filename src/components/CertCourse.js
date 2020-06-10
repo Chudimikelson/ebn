@@ -111,7 +111,7 @@ export default function CertCourse () {
                             <div className="col-md-2 text-title text-center">MODULE 1</div>
                             <div className="col-md-10">
                                 <div className="text-dark d-flex flex-wrap">
-                                <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">2 hours to complete</span>
+                                <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">4 hours to complete</span>
                                 <div className="col-12 order-1 ml-md-4 pl-md-4">
                                 <p className="lead text-brand text-center text-md-left">The skin and Skin Care</p>
                             <p className="lead pb-1">In this module, you will learn how the skin works, its structure and how to efficiently care for the skin.</p>
@@ -168,7 +168,7 @@ export default function CertCourse () {
                             <div className="col-md-2 text-title text-center">MODULE 3</div>
                             <div className="col-md-10">
                                 <div className="text-dark d-flex flex-wrap">
-                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">2 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
+                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">4 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
                                 <p href="#" className="lead text-brand text-center text-md-left">Foundation of Skincare Formulation </p>
                             <p className="lead pb-1">In this module, you will learn about the basic and essential principles of product formulation.</p>
                             </div>
@@ -199,7 +199,7 @@ export default function CertCourse () {
                             <div className="col-md-2 text-title text-center">MODULE 4</div>
                             <div className="col-md-10">
                                 <div className="text-dark d-flex flex-wrap">
-                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">6 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
+                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">10 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
                                 <p className="lead text-brand text-center text-md-left">Lotion and Cream</p>
                             <p className="lead pb-1">In this module you will discover the right way to create and make stable lotions and creams safely from scratch.</p>
                             </div>
@@ -228,7 +228,7 @@ export default function CertCourse () {
                             <div className="col-md-2 text-title text-center">MODULE 5</div>
                             <div className="col-md-10">
                                 <div className="text-dark d-flex flex-wrap">
-                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">6 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
+                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">10 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
                                 <p className="lead text-brand text-center text-md-left">Soap Making</p>
                             <p className="lead pb-1">In this module you will discover how to make diferent type of soaps for different purposes using your own unique formulas. You will learn how to make your soaps from scratch using naturally sourced ingredients.</p>
                             </div>
@@ -257,7 +257,7 @@ export default function CertCourse () {
                             <div className="col-md-2 text-title text-center">MODULE 6</div>
                             <div className="col-md-10">
                                 <div className="text-dark d-flex flex-wrap">
-                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">6 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
+                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">10 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
                                 <p className="lead text-brand text-center text-md-left">Anhydrous Products</p>
                             <p className="lead pb-1">In this module, create lovely oil blends, whipped body butters, scrubs and polishes that give the skin beautiful and youthful radiance.</p>
                             </div>
@@ -287,7 +287,7 @@ export default function CertCourse () {
                             <div className="col-md-2 text-title text-center">MODULE 7</div>
                             <div className="col-md-10">
                                 <div className="text-dark d-flex flex-wrap">
-                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">6 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
+                                    <div className="round-icon bg-gradient-pink order-2 "><i className="far fa-large fa-clock"/></div><span className="lead my-auto ml-3 order-2 ">10 hours to complete</span><div className="col-12 order-1 ml-md-4 pl-md-4">
                                 <p className="lead text-brand text-center text-md-left">Hydrous Products</p>
                             <p className="lead pb-1">In this module, we will teach you how to care for the facial skin which is quite different from the skin on the body by creating refreshing and mild water-based products using special ingredients. </p>
                             </div>

@@ -16,7 +16,7 @@ export default class Products extends Component {
                 onClick={() => value.handleDetail(id)}
               >
                 <Link to="/details">
-                  <img src={img} alt="Etoile Beauty Nig organic natural black soap body lotion face cream skin glowing lightening brightening serum oil mask" className="product-img" />
+                  <img src={img} className="mx-auto card img-fluid" alt="Etoile Beauty Nig organic natural black soap body lotion face cream skin glowing lightening brightening serum oil mask" className="product-img" />
                 </Link>
                 
                 <div className="mt-3 row justify-content-between text-center">

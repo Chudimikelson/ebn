@@ -95,7 +95,7 @@ export default function SimpleExpansionPanel() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            No, this is not a pro-mixing course. We strickly teach you how to formulate natural skincare products from scratch using safe natural ingredients.
+            No, this is not a pro-mixing course. We strictly teach you how to formulate natural skincare products from scratch using safe natural ingredients.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
@@ -109,7 +109,7 @@ export default function SimpleExpansionPanel() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Yes, we have courses for both beginners and intermediate level. Our course are offered online and in person. If you are interested in taking a one on one course with us, please contact us on WhatsApp.
+            Yes we do, Our course are offered online and in person. If you are interested in taking any of our courses in person, please contact us on WhatsApp.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

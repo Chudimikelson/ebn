@@ -129,7 +129,7 @@ export default function Contact() {
         </ExpansionPanelSummary>
         <ExpansionPanelDetails>
           <Typography>
-            Yes, we have courses for both beginners and intermediate level. Our course are offered online and in person. If you are interested in taking a one on one course with us, please contact us on WhatsApp.
+          Yes we do, Our course are offered online and in person. If you are interested in taking any of our courses in person, please contact us on WhatsApp.
           </Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>

@@ -99,7 +99,7 @@ export default function CustomizedExpansionPanels() {
               <p className="text-left"><i className="fas fa-flask text-contrast px-3"></i><Link to="/Contact" className="no-decor-links text-contrast">Contact Us</Link>
               </p>
               <p className="text-left"><i className="fas fa-id-card-alt text-contrast px-3"></i><Link to="/Contact" className="no-decor-links text-contrast">FAQs</Link></p>
-              <p className="text-left"><i className="fas fa-credit-card text-contrast px-3"></i><a href="https://wa.me/2348142195884" className="no-decor-links text-contrast" target="_blank" rel="noopener noreferrer">About Paystack Payment Option</a>
+              <p className="text-left"><i className="fas fa-credit-card text-contrast px-3"></i><a href="https://paystack.com/why-choose-paystack" className="no-decor-links text-contrast" target="_blank" rel="noopener noreferrer">About Paystack Payment Option</a>
               </p>
               <p className="text-left"><i className="fas fa-truck-loading text-contrast px-3"></i><a href="https://wa.me/2348142195884" className="no-decor-links text-contrast" target="_blank" rel="noopener noreferrer">Shipping Information</a>
               </p>

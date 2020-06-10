@@ -15,7 +15,7 @@ export default class Bestsellers extends Component {
               <div className="shadow-box shadow-hover mb-2"  
               onClick={()=>{value.handleDetailx(id)}}
               ><Link to="/bestseller">
-                 <img src={img} alt="Etoile Beauty Nig organic natural black soap body lotion face cream skin glowing lightening brightening serum oil mask"/></Link>
+                 <img src={img} className="mx-auto card img-fluid" alt="Etoile Beauty Nig organic natural black soap body lotion face cream skin glowing lightening brightening serum oil mask"/></Link>
                   
                   <div className="mt-3 row justify-content-between text-center">
                   <div className="col-12"><h3 className="mb-0 tenali">{title}</h3></div>

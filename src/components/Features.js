@@ -10,7 +10,7 @@ export default function Features() {
                     <div className="col-md-6 text-center b-md-r">
                     <p className="lead mb-3 bold text-contrast ">Website Launch Promo !!</p>
                         <h2 className="mb-md-3 bold text-contrast">10% Off </h2>
-                    <p className="lead mt-0 text-gold text-center text-md-left bold">Discount applies ONLY to purchases &#8358;15,000 and above</p>
+                    <p className="lead mt-0 text-gold text-center text-md-left bold">Discount applies ONLY to purchases &#8358;10,000 and above</p>
                     <p className="mb-md-3 bold text-contrast">valid till June 31, 2020 </p>
                     </div>
                     <div className="col-md-6 bbn">
