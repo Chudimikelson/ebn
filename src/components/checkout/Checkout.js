@@ -117,10 +117,10 @@ export default class Checkout extends Component {
             <p className="bold text-darker text-capitalize">sub total</p>
             <p className="bold price ml-sm-auto"><span className="mr-1">&#8358;</span> {cartSubTotal} </p>
           </div>
-          <div className="d-flex flex-wrap text-capitalize text-danger justify-content-between">
+          {/*<div className="d-flex flex-wrap text-capitalize text-danger justify-content-between">
             <p className="bold text-capitalize">10% Discount</p>
             <p className="bold price ml-sm-auto"><span className="mr-1">- &#8358;</span>{discount} </p>
-          </div>
+          </div>*/}
           <div className="d-flex flex-wrap text-capitalize justify-content-between">
             <p className="text-capitalize bold text-darker">Shipping fee: </p>
             <p className="bold price ml-sm-auto"><span className="mr-1">&#8358;</span>{shipping} </p>

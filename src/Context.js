@@ -293,12 +293,13 @@ class ProductProvider extends Component {
     this.state.cart.map( item => (subTotal += item.total));
     if (method !== "regular" && location !== "Abuja") {
       sfee = 4500;
-    } 
-    if (subTotal >= 10000) {
+    }
+    {/**if (subTotal >= 10000) {
       disc = subTotal * 0.1;
     } else {
       disc = 0;
-    }
+    } */} 
+    
     const total = subTotal + sfee - disc;
     this.setState(() => {
       return {
