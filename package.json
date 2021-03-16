@@ -8,6 +8,7 @@
     "delayed-scroll-restoration-polyfill": "^0.1.1",
     "mdbreact": "^4.20.0",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
     "react-iframe": "^1.8.0",
