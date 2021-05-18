@@ -37,15 +37,15 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: 'Light Radiance Lotion',
+    title: 'Lightening Radiance Lotion',
     category: 'moisturizer',
     concern: 'lighteningandbrightening',
-    img: 'img/light radiance lotion.jpg',
-    price: 5000,
+    img: 'img/lightening lotion.jpg',
+    price: 5500,
     description:
-      'Designed to brighten and lighten skin giving you a radiant flawless finish, and firms up the skin.',
+      'Designed to moisturize and lighten the skin giving you a radiant flawless finish. tackles body spots and hyperpigmentation ensuring an even complexion.',
     contains:
-      'Aqua, Sunflower oil, Silky emulsifying wax, Cetyl alcohol, Sodium lactate, Propanediol, Alpha Arbutin, Licorice extract and Liquid Germal plus.',
+      'Aqua, Sunflower oil, Silky emulsifying wax, Kojic acid dipalmitate, Cetyl alcohol, Sodium lactate, Propanediol, Alpha Arbutin, Licorice extract, Liquid Germal plus and DMI.',
     usage: 'Apply on damp skin',
     life:
       'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
@@ -72,9 +72,27 @@ export const storeProducts = [
     count: 0,
     total: 0,
   },
-
   {
     id: 5,
+    title: 'Dark Spots Cream',
+    category: 'facecare',
+    concern: 'lighteningandbrightening',
+    img: 'img/spot removal cream.jpg',
+    price: 4000,
+    description:
+      'Silky gel moisturizer formulated to target and clear deep pitted spots and lighten areas with hyperpigmentation.',
+    contains:
+      'Aqua, Gylcerine, Capryl/caprilic triglycerides, Organic sunflower oil, Silky emulsifying wax, Alpha arbutin, Kojic acid dipalmitate, Niacinamide, Beta carotene, Vitamin E, Liquid germal plus, Dimethyl isosorbide and Carbomer 940.',
+    usage:
+      'Apply on affected areas, after proper cleansing at night only. ALWAYS USE SUNSCREEN.',
+    life:
+      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    inCart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 6,
     title: 'Toning Body Souffle',
     category: 'moisturizer',
     concern: 'skinrepair',
@@ -92,7 +110,7 @@ export const storeProducts = [
     total: 0,
   },
   {
-    id: 6,
+    id: 7,
     title: 'Turmeric Soap',
     category: 'soapandscrub',
     concern: 'lighteningandbrightening',
@@ -101,7 +119,7 @@ export const storeProducts = [
     description:
       "Artisan made with anti-inflamatory and moisturizing plant derived ingredients to even-out your skin tone, boost skins' ability to generate collagen and helps fade discoloration caused by sun exposure.",
     contains:
-      'African shea soap, Honey, Aloe Barbadensis(Aloe Vera), Rose water Curcuma Longa(Turmeric), Santalum Album Linn(Sandalwood), Kojic acid, Daucus carota (Carrot extract) and Tocopherol (Vitamin E oil).',
+      'African shea soap, Honey, Aloe Barbadensis(Aloe Vera), Rose water Curcuma Longa(Turmeric), Santalum Album Linn(Sandalwood), Licorice extract, Daucus carota (Carrot extract) and Tocopherol (Vitamin E oil).',
     usage: 'Apply on whole body for 5 minutes and rinse off with warm water.',
     life:
       'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
@@ -128,14 +146,14 @@ export const storeProducts = [
     total: 0,
   },
   {
-    id: 7,
-    title: 'MC Radiance Lotion',
+    id: 10,
+    title: 'Brightening Radiance Lotion',
     category: 'moisturizer',
     concern: 'skinglow',
-    img: 'img/melanin radiance lotion.jpg',
-    price: 5000,
+    img: 'img/Brightening lotion.jpg',
+    price: 5500,
     description:
-      'Artisan made with skin conditioning and moisturizing ingredients to brighten the skin,soften and keep it hydrated',
+      'Formulated with skin conditioning and moisturizing ingredients to brighten the skin,soften and keep it hydrated',
     contains:
       'Aqua, Almond oil, Emulsifying wax, Cetyl alcohol, Sodium lactate, Mullberry extract, Niacinamide, Tocopherol (Vitamin E oil) and Liquid germal plus',
     usage: 'Apply on damp skin, after bathing',
@@ -165,7 +183,7 @@ export const storeProducts = [
     total: 0,
   },
   {
-    id: 10,
+    id: 31,
     title: 'Noono Kids Soap',
     category: 'soapandscrub',
     img: 'img/kids soap.jpg',
@@ -222,7 +240,7 @@ export const storeProducts = [
     title: 'Radiance Face Serum',
     category: 'facecare',
     concern: 'lighteningandbrightening',
-    img: 'img/rf serum.jpg',
+    img: 'img/raf serum.jpg',
     price: 5000,
     description:
       'Artisan made with Hempseed and Argan oil infused with potent natural oils to gently lighten the skin tone, soothe irritated skin and minimize break outs',
@@ -332,17 +350,35 @@ export const storeProducts = [
   },
   {
     id: 30,
-    title: 'Acne Face Gel',
+    title: 'Acne Ban Cream',
     category: 'facecare',
     concern: 'acne',
     img: 'img/face gel.jpg',
-    price: 5000,
+    price: 4000,
     description:
-      'Silky gel moisturizer formulated to kill acne causing bacteria, control excessive sebum and soothe inflammed acne (less beneficial for blackheads and white heads).',
+      'Silky gel moisturizer formulated to kill acne causing bacteria, control excessive sebum and soothe inflammed acne also beneficial for blackheads and white heads.',
     contains:
-      'Aqua, Gylcerine, Capryl/caprilic triglycerides, Squalene, Silky emulsifying wax, cetyl alcohol, MSM (organic sulfur), Niacinamide, Benzoyl peroxide, Vitamin E, Hydroethylcellulose and Liquid germal plus.',
+      'Aqua, Gylcerine, Capryl/caprilic triglycerides, Squalene, Silky emulsifying wax, cetyl alcohol, MSM (organic sulfur), Niacinamide, Salicylic acid, Vitamin E, Hydroethylcellulose and Liquid germal plus.',
+    usage: 'Apply on face and neck, after proper cleansing and using a toner.',
+    life:
+      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    inCart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 32,
+    title: 'pH Balancing Cleanser',
+    category: 'facecare',
+    concern: 'acne',
+    img: 'img/cleansing gel.jpg',
+    price: 4000,
+    description:
+      'Mild foaming cleansing gel formulated to kill acne causing bacteria, control excessive sebum and soothe inflammed acne and keep pores clean.',
+    contains:
+      'Aqua, Gylcerine, Cocoamidoprophyl betaine, Sodium cocyl isethionate, Hydrolyzed silk proteins, Niacinamide, Salicylic acid, Decyl glucoside, Vitamin E, Hydroethylcellulose and Liquid germal plus.',
     usage:
-      'Apply on face and neck, after proper cleansing and posibly using a toner.',
+      'Apply on affected areas, leave for 2-5 minutes then rinse off. Use a toner and moisturizer with an acne treatment afterwards.',
     life:
       'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
@@ -404,15 +440,14 @@ export const collectionDetail = {
 export const bestsellerProducts = [
   {
     id: 23,
-    title: 'Light skin set',
-    img: 'img/light radiance set.jpg',
-    price: 15000,
+    title: 'Lightening Radiance Lotion',
+    img: 'img/lightening lotion.jpg',
+    price: 5500,
     description:
-      'This collection is designed for face and body lightening, it helps with hyperpigmentation and evens out skin tone',
+      'Designed to moisturize and lighten the skin giving you a radiant flawless finish. tackles body spots and hyperpigmentation ensuring an even complexion.',
     contains:
-      'One turmeric soap, One shea glow polish, One light radiance lotion and One radiance face milk',
-    usage:
-      'Step 1: Scoop desired quantity of glow polish on entire body(except face). Step 2: Apply soap unto skin for 5minutes, then rinse off. Step 3: Apply face milk on face and neck.  Step 4: Apply lotion on body.',
+      'Aqua, Sunflower oil, Silky emulsifying wax, Kojic acid dipalmitate, Cetyl alcohol, Sodium lactate, Propanediol, Alpha Arbutin, Licorice extract, Liquid Germal plus and DMI.',
+    usage: 'Apply on damp skin',
     life:
       'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
@@ -423,13 +458,13 @@ export const bestsellerProducts = [
     id: 16,
     title: 'Acne Set',
     img: 'img/acne set.jpg',
-    price: 11000,
+    price: 14000,
     description:
-      ' This collection was put together to fight acne, improves skin texture and lighten dark marks on face and neck',
+      ' This collection was put together to fight acne, improve skin texture and lighten dark marks on face and neck',
     contains:
-      'One Detox face mask, One radiance face soap and One radiance face serum',
+      'One pH balancing cleanser, One radiance face toner and One acne ban cream and One dark spots cream',
     usage:
-      'Step 1: Mix half teaspoon of face mask with activator of choice. Apply generously on face and allow to dry but not crumbly, massage gently and then rinse off. Step 2: Massage soap as desired unto skin, then rinse off. Step 3: Apply face serum unto damp face and neck. BEST USED AT NIGHT!',
+      'Step 1: Take a pea size of cleanser and massage generously on face and neck for 2-5 minutes, massage gently and then rinse off. Step 2: Spray face toner on face and neck as desired or spray on cotton pad and clean face. Step 3: Apply acne ban cream pn areas with acne or prone to acne. Step 4: Apply dark spots cream on areas with spots. ALWAYS WEAR SUNSCREEN DURING THE DAY!',
     life:
       'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
@@ -438,15 +473,14 @@ export const bestsellerProducts = [
   },
   {
     id: 18,
-    title: 'Melanin-Caramel Set',
-    img: 'img/melanin radiance set.jpg',
-    price: 15000,
+    title: 'Brightening Radiance Lotion',
+    img: 'img/Brightening lotion.jpg',
+    price: 5500,
     description:
-      'Specially curated to gently brighten face and body, soften the skin and improve skin radiance',
+      'Formulated with skin conditioning and moisturizing ingredients to gently brighten the skin, soften and hydrate the skin ensuring a vibrant skin tone',
     contains:
-      'One estelle black soap, One shea glow polish, One radiance lotion(melanin/caramel) and One radiance face milk',
-    usage:
-      'Step 1: Scoop desired quantity of glow polish on entire body(except face). Step 2: Apply soap unto skin for 5minutes, then rinse off. Step 3: Apply face milk on face and neck.  Step 4: Apply lotion on body.',
+      'Aqua, Almond oil, Emulsifying wax, Cetyl alcohol, Sodium lactate, Mullberry extract, Niacinamide, Tocopherol (Vitamin E oil) and Liquid germal plus',
+    usage: 'Apply on damp skin, after bathing',
     life:
       'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
