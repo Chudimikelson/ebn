@@ -11,8 +11,7 @@ export const storeProducts = [
     contains:
       'African Black Soap, Aqua, Cymbopogon Schoenanthus Extract(Lemon Grass) hydrosol, Azaddirachta(Neem Leaf) extract, Camwood powder, Chamomile glycerate and black seed oil .',
     usage: 'Apply on whole body and rinse off with warm water.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -29,8 +28,7 @@ export const storeProducts = [
     contains:
       'Chamomile infused Sunflower oil, Shea nut oil, Multifruit complex, Licorice extract and Vitamin E oil.',
     usage: 'Apply on whole body, after bath.',
-    life:
-      'DO NOT USE, IF YOU HAVE NUT ALLERGIES!   Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'DO NOT USE, IF YOU HAVE NUT ALLERGIES!   Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -47,8 +45,7 @@ export const storeProducts = [
     contains:
       'Aqua, Sunflower oil, Silky emulsifying wax, Kojic acid dipalmitate, Cetyl alcohol, Sodium lactate, Propanediol, Alpha Arbutin, Licorice extract, Liquid Germal plus and DMI.',
     usage: 'Apply on damp skin',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -66,8 +63,7 @@ export const storeProducts = [
     contains:
       'African black soap, Honey, Aloe vera, Witch Hazel distillate, Chamomile glycerate, Neem oil, Willowbark extract and Lavender oil. ',
     usage: 'Apply as desired on damp skin, then rise off with warm water',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -85,8 +81,7 @@ export const storeProducts = [
       'Aqua, Gylcerine, Capryl/caprilic triglycerides, Organic sunflower oil, Silky emulsifying wax, Alpha arbutin, Kojic acid dipalmitate, Niacinamide, Beta carotene, Vitamin E, Liquid germal plus, Dimethyl isosorbide and Carbomer 940.',
     usage:
       'Apply on affected areas, after proper cleansing at night only. ALWAYS USE SUNSCREEN.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -103,8 +98,7 @@ export const storeProducts = [
     contains:
       ' Aqua, Sesame oil, Mango butter, Beta carotene, Silky Emulsifying wax, Sodium lactate, Mullberry extract, Cetyl alcohol, Papaya extract, Green tea extract, Niacinamide, Licorice and Liquid germal plus.',
     usage: 'Apply on damp skin, after bathing',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -121,8 +115,7 @@ export const storeProducts = [
     contains:
       'African shea soap, Honey, Aloe Barbadensis(Aloe Vera), Rose water Curcuma Longa(Turmeric), Santalum Album Linn(Sandalwood), Licorice extract, Daucus carota (Carrot extract) and Tocopherol (Vitamin E oil).',
     usage: 'Apply on whole body for 5 minutes and rinse off with warm water.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -139,8 +132,7 @@ export const storeProducts = [
     contains:
       'Himalayan pink salt (fine), Soft sugar, Butyrospermum parkii (Shea nut) oil, Castor oil, Mullberry extract, Emulsifying wax, Stearic acid, Mixed tocopherols (Vitamin E oil), orange essential oil and Collagen.',
     usage: 'Massage desired quantity on body and rinse off with warm water.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -157,8 +149,7 @@ export const storeProducts = [
     contains:
       'Aqua, Almond oil, Emulsifying wax, Cetyl alcohol, Sodium lactate, Mullberry extract, Niacinamide, Tocopherol (Vitamin E oil) and Liquid germal plus',
     usage: 'Apply on damp skin, after bathing',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -176,8 +167,7 @@ export const storeProducts = [
     contains:
       'Aqua, Helianthus annuus(Sunflower) oil, Hempseed oil, Silky Emulsifying wax, Cetyl alcohol, Sodium hyaluronate, Glycyrrhiza glabra (Licorice extract), Niacinamide, Chamomile extract, Green tea extract and Liquid germal plus. ',
     usage: 'Apply on face and neck area after bath',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -193,8 +183,7 @@ export const storeProducts = [
     contains:
       'African black soap, Organic aloe vera, sunflower oil, African camwood powder and Neem powder ',
     usage: 'Apply on whole body the rinse of with warm water',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -211,8 +200,7 @@ export const storeProducts = [
     contains:
       'Sunflower oil, Shea nut oil, Lavender essential oil and Mandarin essential oil ',
     usage: 'Apply on damp skin, immediately after bathing',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -229,45 +217,42 @@ export const storeProducts = [
     contains:
       'Mango butter, Shea butter, Aloe vera, Sunflower oil with Mandarin and Lavender essential oils',
     usage: 'Apply on damp skin, immediately after bath',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
   },
   {
     id: 13,
-    title: 'Radiance Face Serum',
+    title: 'Gold Radiance Serum',
     category: 'facecare',
     concern: 'lighteningandbrightening',
-    img: 'img/raf serum.jpg',
-    price: 5000,
+    img: 'img/raf serumm.jpg',
+    price: 3000,
     description:
-      'Artisan made with Hempseed and Argan oil infused with potent natural oils to gently lighten the skin tone, soothe irritated skin and minimize break outs',
+      'Artisan made with Jojoba and Sunflower oil formulated with potent natural actives to gently lighten your skin tone while minimizing break outs',
     contains:
-      'Hempseed Oil, Papaya seed Oil, Licorice extract, Vitamin C, Multi-vitamin oil extracts',
+      'Jojoba Oil, Sunflower seed Oil, Caprylcaprilic triglycerides, Licorice extract, Beta carotene, Multi-vitamin oil extracts',
     usage: 'Apply 3 drops on face and neck immediately after bath',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
   },
   {
     id: 25,
-    title: 'Face Mask',
+    title: 'Acne Face Mask',
     category: 'facecare',
     concern: 'acne',
-    img: 'img/face mask.jpg',
-    price: 1500,
+    img: 'img/ACNE FACEMASK.jpg',
+    price: 2000,
     description:
-      'Deep cleansing masque made with exotic clays and plant extracts rich in nourishing vitamins to gently lighten the face, tighten large pores, soothe irritated skin and improve skin texture. FOR OILY & COMBINATION SKIN',
+      'Deep cleansing masque made with Activated charcoal, exotic clays and plant extracts to detoxify the pores, gently exfoliate dead skin cells and improve skin texture. FOR OILY & COMBINATION SKIN',
     contains:
-      'French green/rose clay, Mullberry, Brown licorice powder, Sandalwood powder and Mullberry powder.',
+      'Aqua, Glycerine, Emulsifying wax, Cetyl alcohol, French rose clay, Mullberry, Brown licorice powder, Sandalwood powder and liquid germal plus.',
     usage:
-      'Step 1: Mix with desired activator(Aloe vera gel or milk) and spread over face and neck (avoid sensitive eye area). Step 2: Allow mask to sit for 5-10minutes.  Step 3: When mask is dry and tight without being crusty, use damp hands to massage in circular motions to soften clay and gently exfoliate. Step 4: Massage until mask is creamy then wash off with warm water and pat dry with a clean towel.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+      'Step 1: With a clean spatula or brush, spread over face and neck (avoid sensitive eye area). Step 2: Allow mask to sit for 5-10minutes.  Step 3: When mask is dry and tight without being crusty, use damp hands to massage in circular motions to soften and gently exfoliate. Step 4: Massage until mask is creamy then wash off with warm water and pat dry with a clean towel.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -285,8 +270,7 @@ export const storeProducts = [
       'Aqua, Sodium lactate, Niacinamide, Hyaluronic acid, Tranexamic acid, Chamomile extract and liquid germal plus.',
     usage:
       'Spray on cleansed face and neck or apply on palms and dap over face and neck. Use twice daily.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -304,8 +288,7 @@ export const storeProducts = [
       'Syndet glycerine soap base, French pink rose clay, Mullberry and Papaya powders and Brown licorice powder.',
     usage:
       'Step 1: Wet bar between your palms to make a lather and spread over face and neck (avoid sensitive eye area). Step 2: Massage or allow to sit on skin for 1 minute.  Step 3: Use damp hands to massage in circular motions and gently rinse off with warm water, then pat dry with a clean towel.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -316,15 +299,14 @@ export const storeProducts = [
     category: 'facecare',
     concern: 'skinrepair',
     img: 'img/vitamin c face cream.jpg',
-    price: 5000,
+    price: 4000,
     description:
       'Antioxidant packed moisturizer formulated to even out skin tone, improve skin texture and deliver antioxidants to barrier impaired skin. FOR DRY TO NORMAL SKIN',
     contains:
       'Aqua, Sodium hyaluronate, Carrotseed oil, Sesame oil, Silky emulsifying wax, Cetyl alcohol, Sodium Ascorbyl Phosphate (Vitamin C), Gluthatione, Licorice extract, Vitamin E and Liquid germal plus.',
     usage:
       'Apply on face and neck, after proper cleansing and posibly using a toner.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -334,16 +316,15 @@ export const storeProducts = [
     title: 'Vitamin C Serum',
     category: 'facecare',
     concern: 'skinrepair',
-    img: 'img/vitamin-c face toner.jpg',
-    price: 5000,
+    img: 'img/vserum.jpg',
+    price: 3000,
     description:
       'Antioxidant packed hydrating serum formulated to even out skin tone, improve skin texture and deliver antioxidants to barrier impaired skin. FOR COMBINATION AND OILY SKIN.',
     contains:
-      'Aqua, Sodium hyaluronate, Sodium Ascorbyl Phosphate (Vitamin C), Gluthatione, Licorice extract, Vitamin E, Hydroethylcellulose and Liquid germal plus .',
+      'Aqua, Sodium hyaluronate, Sodium lactate, Sodium Ascorbyl Phosphate (Vitamin C), Gluthatione, Licorice extract, Vitamin E, Hydroethylcellulose and Liquid germal plus .',
     usage:
       'Apply on face and neck, after proper cleansing and posibly using a toner.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -353,15 +334,14 @@ export const storeProducts = [
     title: 'Acne Ban Cream',
     category: 'facecare',
     concern: 'acne',
-    img: 'img/face gel.jpg',
+    img: 'img/face gel_edited.jpg',
     price: 4000,
     description:
       'Silky gel moisturizer formulated to kill acne causing bacteria, control excessive sebum and soothe inflammed acne also beneficial for blackheads and white heads.',
     contains:
       'Aqua, Gylcerine, Capryl/caprilic triglycerides, Squalene, Silky emulsifying wax, cetyl alcohol, MSM (organic sulfur), Niacinamide, Salicylic acid, Vitamin E, Hydroethylcellulose and Liquid germal plus.',
     usage: 'Apply on face and neck, after proper cleansing and using a toner.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -379,8 +359,43 @@ export const storeProducts = [
       'Aqua, Gylcerine, Cocoamidoprophyl betaine, Sodium cocyl isethionate, Hydrolyzed silk proteins, Niacinamide, Salicylic acid, Decyl glucoside, Vitamin E, Hydroethylcellulose and Liquid germal plus.',
     usage:
       'Apply on affected areas, leave for 2-5 minutes then rinse off. Use a toner and moisturizer with an acne treatment afterwards.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    inCart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 33,
+    title: 'Niacinamide Serum',
+    category: 'facecare',
+    concern: 'lighteningandbrightening',
+    img: 'img/NIACINAMIDE.jpg',
+    price: 3000,
+    description:
+      'Pore refining and minimizing serum, to help control oily skin, smoothen the skin and manage break outs',
+    contains:
+      'Aqua, 1,3 propanediol, Sodium lactate, Niacinamide, N-acetyl Glucosamine, Hyaluronic acid, DMI, Chamomile extract, Zinc, Liquid germal plus ',
+    usage:
+      'Apply 3 drops on face and neck immediately after cleansing and toner and before moisturizer or sunscreen.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    inCart: false,
+    count: 0,
+    total: 0,
+  },
+  {
+    id: 34,
+    title: 'Strawberry Hydrating Mask',
+    category: 'facecare',
+    concern: 'skinglow',
+    img: 'img/STRAWBERRY MASK.jpg',
+    price: 2000,
+    description:
+      'Deep hydrating mask made with a combination of soothing plant extracts and natural lightening and exfoliating fruit extracts. FOR ALL SKIN TYPES',
+    contains:
+      'Aqua, Glycerine, Aloe vera, Emulsifying wax, Cetyl alcohol, Strawberry extract, 5% lactic acid, Pink mulberry powder, Allantoin and liquid germal plus.',
+    usage:
+      'Step 1: With a clean spatula or brush, spread over face and neck (avoid sensitive eye area). Step 2: Allow mask to sit for 5-10minutes.  Step 3: When mask is dry and tight without being crusty, use damp hands to massage in circular motions to soften and gently exfoliate. Step 4: Massage until mask is creamy then wash off with warm water and pat dry with a clean towel.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -395,8 +410,7 @@ export const detailProduct = {
   description: 'one thing soap',
   contains: 'some ingredients',
   usage: 'apply on whole body',
-  life:
-    'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+  life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
   inCart: false,
   count: 0,
   total: 0,
@@ -413,8 +427,7 @@ export const detailCat = {
     'One turmeric soap, One shea glow polish, One light radiance lotion and One radiance face serum',
   usage:
     'Step 1: Massage desired quantity of body polish unto skin, leave for 5 minutes and then rinse off. Step 3: Apply soap unto skin before bath, then rinse off. Step 4: Apply face serum unto face and neck.  Step 3: Apply body lotion on damp skin.',
-  life:
-    'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+  life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
   inCart: false,
   count: 0,
   total: 0,
@@ -430,8 +443,7 @@ export const collectionDetail = {
     'One turmeric soap, One shea glow polish, One light radiance lotion and One radiance face serum',
   usage:
     'Step 1: Massage desired quantity of body polish unto skin, leave for 5 minutes and then rinse off. Step 3: Apply soap unto skin before bath, then rinse off. Step 4: Apply face serum unto face and neck.  Step 3: Apply body lotion on damp skin.',
-  life:
-    'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+  life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
   inCart: false,
   count: 0,
   total: 0,
@@ -448,8 +460,7 @@ export const bestsellerProducts = [
     contains:
       'Aqua, Sunflower oil, Silky emulsifying wax, Kojic acid dipalmitate, Cetyl alcohol, Sodium lactate, Propanediol, Alpha Arbutin, Licorice extract, Liquid Germal plus and DMI.',
     usage: 'Apply on damp skin',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -465,8 +476,7 @@ export const bestsellerProducts = [
       'One pH balancing cleanser, One radiance face toner and One acne ban cream and One dark spots cream',
     usage:
       'Step 1: Take a pea size of cleanser and massage generously on face and neck for 2-5 minutes, massage gently and then rinse off. Step 2: Spray face toner on face and neck as desired or spray on cotton pad and clean face. Step 3: Apply acne ban cream pn areas with acne or prone to acne. Step 4: Apply dark spots cream on areas with spots. ALWAYS WEAR SUNSCREEN DURING THE DAY!',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -481,8 +491,7 @@ export const bestsellerProducts = [
     contains:
       'Aqua, Almond oil, Emulsifying wax, Cetyl alcohol, Sodium lactate, Mullberry extract, Niacinamide, Tocopherol (Vitamin E oil) and Liquid germal plus',
     usage: 'Apply on damp skin, after bathing',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -497,8 +506,7 @@ export const bestsellerProducts = [
     contains: 'One shea glow polish and One shea glow oil',
     usage:
       'Step 1: Massage desired quantity of shea glow polish unto skin for 5minutes, then rinse off. Step 2: Apply shea glow oil on damp skin, immediately after exfoliating.  CAUTION:DO NOT Apply on your face if you have breakouts.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -507,17 +515,15 @@ export const bestsellerProducts = [
 export const collections = [
   {
     id: 18,
-    title: 'Fresh Radiance',
-    img: 'img/melanin radiance set.jpg',
-    price: 15000,
+    title: 'Glow Trio',
+    img: 'img/GLOWTRIO.jpg',
+    price: 8000,
     description:
-      'Specially curated to gently brighten face and body, soften the skin and improve skin radiance',
-    contains:
-      'One estelle black soap, One shea glow polish, One radiance lotion(melanin/caramel) and One radiance face milk',
+      'Specially 3 serums curated to gently brighten, soften the skin, improve skin texture, control oily skin and improve skin radiance',
+    contains: 'Vitamin C serum, Niacinamide serum and Gold radiance serum',
     usage:
-      'Step 1: Scoop desired quantity of glow polish on entire body(except face). Step 2: Apply soap unto skin for 5minutes, then rinse off. Step 3: Apply face milk on face and neck.  Step 4: Apply lotion on body.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+      'Use the Niacinamide serum after cleansing\toning your skin in the morning before moisturizer or sunscreen. Use the Vitamin C serum on cleansed\toned skin at night before moisturizer. Use the gold radiance serum on uneven areas of your skin at night (can be used inplace of a cream or lotion moisturizer).',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -532,25 +538,22 @@ export const collections = [
     contains: 'One shea glow polish and One shea glow oil',
     usage:
       'Step 1: Massage desired quantity of shea glow polish unto skin for 5minutes, then rinse off. Step 2: Apply shea glow oil on damp skin, immediately after exfoliating.  CAUTION:DO NOT Apply on your face if you have breakouts.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
   },
   {
     id: 20,
-    title: 'Acne Face Set',
-    img: 'img/acne set.jpg',
-    price: 11000,
+    title: 'Detox and Hydrate',
+    img: 'img/DETOX&HYDRATE.jpg',
+    price: 3500,
     description:
-      ' This collection was put together to fight acne, improves skin texture and lighten dark marks on face and neck',
-    contains:
-      'One Detox face mask, One radiance face soap and One radiance face serum',
+      ' This mask duo was put together to fight acne, exfoliate the delicate fcial skin, improve skin texture and lighten dark marks on face and neck',
+    contains: 'One Acne face mask, One Strawberry mask',
     usage:
-      'Step 1: Mix half teaspoon of face mask with activator of choice. Apply generously on face and allow to dry but not crumbly, massage gently and then rinse off. Step 2: Massage soap as desired unto skin, then rinse off. Step 3: Clean face with a few drops of the toner on a cotton pad. Step 4: Apply face serum unto damp face and neck. BEST USED AT NIGHT!',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+      'It is adviceable to use mask twice a week. Acne face mask first,then Strawbery face mask. To use: Use a clean spatula or brush to apply mask generously on face and leave for 5-10 minutes, massage gently and then rinse off. BEST USED AT NIGHT!',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -567,8 +570,7 @@ export const collections = [
       'One turmeric soap, One shea glow polish, One light radiance lotion and One radiance face milk',
     usage:
       'Step 1: Scoop desired quantity of glow polish on entire body(except face). Step 2: Apply soap unto skin for 5minutes, then rinse off. Step 3: Apply face milk on face and neck.  Step 4: Apply lotion on body.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -585,8 +587,7 @@ export const collections = [
       'One Detox face mask, One hydrating toner, One radiance face soap and One radiance face milk',
     usage:
       'Step 1: Mix half teaspoon of face mask with activator of choice. Apply generously on face and allow to dry but not crumbly, massage gently and then rinse off. Step 2: Massage soap as desired unto skin, then rinse off. Step 3: Clean face with a few drops of the toner on a cotton pad. Step 4: Apply face milk unto damp face and neck. BEST USE A SUNSCREEN DURING THE DAY!',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -601,8 +602,7 @@ export const collections = [
     contains: 'One shea glow polish, One shea glow oil and One turmeric soap.',
     usage:
       'Step 1: Massage desired quantity of shea glow polish unto skin for 5minutes, then rinse off. Step 2: Apply soap unto skin before bath, then rinse off Step 3: Apply shea glow oil on damp skin, immediately after exfoliating.  CAUTION:DO NOT Apply on your face if you have breakouts.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -618,8 +618,7 @@ export const collections = [
       'One estelle black soap, One body souffle and One radiant face milk',
     usage:
       'Step 1: Apply soap unto skin, then rinse off. Step 2: Apply face milk on face and neck.  Step 3: Apply body lotion on damp skin.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
@@ -636,8 +635,7 @@ export const collections = [
       'One noono kids soap, One kooko body butter and One chiis body oil',
     usage:
       'Step 1: Apply soap unto skin, then rinse off. Step 2: Apply body butter on damp skin.  Step 3: Apply body oil on hair and skin.',
-    life:
-      'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
+    life: 'Keep out of reach of children. Discontinue if skin irritation occurs. Do not use on open or split skin. For external use only.',
     inCart: false,
     count: 0,
     total: 0,
